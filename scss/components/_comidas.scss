@@ -1,0 +1,30 @@
+/* Menú de comidas */
+
+.menu-title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.food-container {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20px 80px 20px;
+}
+
+.food-title {
+    text-align: center;
+}
+
+.food-description {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.price {
+    margin: auto;
+}

@@ -1,0 +1,62 @@
+@import 'base/colors';
+@import 'base/fonts';
+@import 'components/footer';
+@import 'extensions/extend';
+@import 'extensions/mixins';
+@import 'components/form';
+@import 'components/comidas';
+@import 'components/galeria';
+@import 'components/parrafo';
+@import 'components/titulos';
+@import 'components/carousel';
+@import 'components/menuboots';
+@import 'components/headers';
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+// Colores
+.menubar, .title-container, .titulo-formato{
+    background-color: $color-primario;
+}
+
+.menu-enlace, .titulo-formato{
+    color: $color-secundario;
+}
+
+footer, .form{
+    background-color: $color-secundario;
+    color: $color-texto-footer;
+}
+
+
+// Fuentes
+.formato-texto, .menu-title, .form{
+    font-family: $font-parrafos;
+}
+
+.food-description .form label{
+    font-family: $font-descripcion-comidas;
+}
+
+.food-title{
+    font-family: $font-nombre-comidas;
+}
+
+footer{
+    font-family: $font-footer;
+}
+
+.titulo-formato{
+    font-family: $font-titulo;
+}
+
+// Flexbox
+
+header, .title-container, .titulo-formato, .mapa{
+    @extend %flexbox-center;
+}

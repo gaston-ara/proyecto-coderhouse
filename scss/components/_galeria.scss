@@ -1,0 +1,26 @@
+/* Galeria */
+
+.fotos-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.foto-item {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    object-fit: cover;
+    filter: contrast(70%);
+
+    &:hover {
+        filter: contrast(100%);
+        @include transform(scale(1.02));
+        transition: 1s;
+    }
+}
