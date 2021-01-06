@@ -135,6 +135,34 @@ header {
   width: 100%;
 }
 
+.parallax {
+  margin-top: -24px;
+  width: 100vw;
+  height: 70vh;
+  background: fixed no-repeat 50% 50%;
+  background-size: cover;
+  background-image: url("../../images/galeria/restaurant-691397_640.jpg");
+  display: flex;
+}
+.parallax .bloque {
+  width: 30rem;
+  height: 20rem;
+  background: rgba(0, 0, 0, 0.568);
+  display: flex;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+}
+.parallax .bloque p {
+  display: flex;
+  margin: auto;
+  width: 20rem;
+  height: 15rem;
+}
+
 * {
   margin: 0px;
   padding: 0px;
