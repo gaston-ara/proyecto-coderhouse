@@ -1,8 +1,15 @@
+.titulo-presentacion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1rem;
+    margin: 6rem 0 6rem 0;
+}
+
 @media only screen and (min-width: 280px) and (max-width: 768px) {
     .invertir {
         display: flex;
-        // flex-direction: column;
-        // flex-wrap: wrap;
 
         .img-invertir{
             order: 1;
@@ -10,5 +17,34 @@
         .texto-invertir{
             order: 2;
         }
+    }
+}
+
+.fila-carne{
+    margin: 5rem 0 5rem 0;
+        div a img:hover{
+            transform: translate(-3rem, 0);
+            transition: 0.90s;
+        }
+}
+.fila-pasta{
+    margin: 5rem 0 5rem 0;
+    div a img:hover{
+        transform: translate(3rem, 0);
+        transition: 0.90s;
+    }
+}
+.fila-postre{
+    margin: 5rem 0 5rem 0;
+    div a img:hover{
+        transform: translate(-3rem, 0);
+        transition: 0.90s;
+    }
+}
+.fila-vino{
+    margin: 5rem 0 5rem 0;
+    div a img:hover{
+        transform: translate(3rem, 0);
+        transition: 0.90s;
     }
 }

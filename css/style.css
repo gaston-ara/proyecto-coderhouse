@@ -137,7 +137,6 @@ header {
 
 .parallax {
   margin-top: -24px;
-  width: 100vw;
   height: 70vh;
   background: fixed no-repeat 50% 50%;
   background-size: cover;
@@ -145,22 +144,29 @@ header {
   display: flex;
 }
 .parallax .bloque {
-  width: 30rem;
-  height: 20rem;
-  background: rgba(0, 0, 0, 0.568);
   display: flex;
+  background: rgba(0, 0, 0, 0.568);
   margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   border-radius: 7px;
   color: white;
   text-align: center;
 }
 .parallax .bloque p {
   display: flex;
-  margin: auto;
+  margin: 2rem;
   width: 20rem;
-  height: 15rem;
+  height: 5rem;
+}
+
+.titulo-presentacion {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 6rem 0;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
@@ -174,10 +180,46 @@ header {
     order: 2;
   }
 }
+.fila-carne {
+  margin: 5rem 0 5rem 0;
+}
+.fila-carne div a img:hover {
+  transform: translate(-3rem, 0);
+  transition: 0.9s;
+}
+
+.fila-pasta {
+  margin: 5rem 0 5rem 0;
+}
+.fila-pasta div a img:hover {
+  transform: translate(3rem, 0);
+  transition: 0.9s;
+}
+
+.fila-postre {
+  margin: 5rem 0 5rem 0;
+}
+.fila-postre div a img:hover {
+  transform: translate(-3rem, 0);
+  transition: 0.9s;
+}
+
+.fila-vino {
+  margin: 5rem 0 5rem 0;
+}
+.fila-vino div a img:hover {
+  transform: translate(3rem, 0);
+  transition: 0.9s;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .menubar, .title-container, .titulo-formato {

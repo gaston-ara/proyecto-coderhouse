@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 // Colores
 .menubar, .title-container, .titulo-formato{
     background-color: $color-primario;
