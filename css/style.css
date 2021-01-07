@@ -163,6 +163,17 @@ header {
   height: 15rem;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  .invertir {
+    display: flex;
+  }
+  .invertir .img-invertir {
+    order: 1;
+  }
+  .invertir .texto-invertir {
+    order: 2;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;

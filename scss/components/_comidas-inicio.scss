@@ -1,0 +1,14 @@
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+    .invertir {
+        display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap;
+
+        .img-invertir{
+            order: 1;
+        }
+        .texto-invertir{
+            order: 2;
+        }
+    }
+}
