@@ -78,35 +78,48 @@
                 <h1 class="titulo-formato">Reservas</h1>
             </div>
             <p class="formato-texto">Realice su reserva, aceptamos horarios de reserva de 08:00hs a 23:00hs.</p>
+    
+    
+            <form action="" class="formu">
 
+                <div class="name-section">
+                    <input id="nombre" type="text" placeholder="" required>
+                    <label for="nombre" class="label-name"> <span class="content-name">Nombre</span></label>
+                </div>
 
-            <form action="" class="form">
+                <div class="surname-section">                
+                    <input  id="apellido" type="text" placeholder="" required>
+                    <label for="apellido" class="label-surname"><span class="content-surname">Apellido</span></label>
+                </div>
 
-                <label for="nombre">Nombre</label><br>
-                <input class="form-control" id="nombre" type="text" placeholder="Escriba su nombre" required><br>
+                <div class="diner-section">
+                    <input id="comensales" type="number" min="1" max="10" required>
+                    <label for="comensales" class="label-diner"><span class="content-diner">Cantidad de comensales</span></label>
+                </div>
 
-                <label for="apellido">Apellido</label><br>
-                <input class="form-control" id="apellido" type="text" placeholder="Escriba su apellido" required><br>
+                <div class="date-section">
+                    <input  id="fecha" type="date" name="fecha" required>
+                    <label for="fecha" class="label-date"><span class="content-date">Ingrese fecha de reserva</span></label>
+                </div>
 
-                <label for="comensales">Cantidad de comensales</label><br>
-                <input class="form-control" id="comensales" type="number" min="1" max="10" value="2" required><br>
+                <div class="time-section">
+                    <input  id="hora" type="time" name="hora" min="08:00" max="23:00" required>
+                    <label for="hora" class="label-time"><span class="content-time">Ingrese hora de reserva:</span></label>
+                </div>
 
-                <label for="fecha">Ingrese fecha de reserva:</label><br>
-                <input class="form-control" id="fecha" type="date" name="fecha" required><br>
+                <div class="phone-section">
+                        <input id="numero" type="tel" name="Telefono" required maxlength="10" pattern="[0-9]{10}" placeholder="(Sin 0 y sin 15)">
+                        <label for="numero" class="label-phone"><span class="content-phone">Número de teléfono</span> </label>
+                </div>
 
-                <label for="hora">Ingrese hora de reserva:</label><br>
-                <input class="form-control" id="hora" type="time" name="hora" min="08:00" max="23:00" required><br>
+                <div class="mail-section">
+                    <input id="email" type="email" placeholder="" required>
+                    <label for="email" class="label-mail"><span class="content-mail">Email</span></label>
+                </div>
 
-                <label for="numero">Número de teléfono</label><br>
-                <input class="form-control" id="numero" type="tel" name="Telefono" required maxlength="10"
-                    pattern="[0-9]{10}" placeholder="(Sin 0 y sin 15)"><br>
-
-                <label for="email">Email</label><br>
-                <input class="form-control" id="email" type="email" placeholder="Escriba su email" required><br>
-
-                <input class="btn btn-primary" type="submit" name="Reservar" value="Reservar">
+                <input class="btn btn-primary my-4" type="submit" name="Reservar" value="Reservar">
             </form>
-
+    
         </div>
     </section>
 

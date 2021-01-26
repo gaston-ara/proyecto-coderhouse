@@ -11,13 +11,333 @@ header, .title-container, .titulo-formato, .mapa {
 }
 
 /* Formularios */
-.form {
-  width: 35%;
-  padding: 30px;
-  margin: auto;
-  margin-bottom: 20px;
+.formu {
+  width: 50%;
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+}
+.formu .name-section {
+  position: relative;
   margin-top: 20px;
-  border-radius: 10px;
+}
+.formu .name-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .name-section input:focus + .label-name .content-name, .formu .name-section input:valid + .label-name .content-name {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .name-section input:focus + .label-name::after, .formu .name-section input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+.formu .name-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .name-section label .content-name {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .name-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.formu .surname-section {
+  margin-top: 50px;
+  position: relative;
+}
+.formu .surname-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .surname-section input:focus + .label-surname .content-surname, .formu .surname-section input:valid + .label-surname .content-surname {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .surname-section input:focus + .label-surname::after, .formu .surname-section input:valid + .label-surname::after {
+  transform: translateX(0%);
+}
+.formu .surname-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .surname-section label .content-surname {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .surname-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.formu .diner-section {
+  margin-top: 50px;
+  position: relative;
+}
+.formu .diner-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .diner-section input:focus + .label-diner .content-diner, .formu .diner-section input:valid + .label-diner .content-diner {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .diner-section input:focus + .label-diner::after, .formu .diner-section input:valid + .label-diner::after {
+  transform: translateX(0%);
+}
+.formu .diner-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .diner-section label .content-diner {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .diner-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.formu .date-section {
+  margin-top: 50px;
+  position: relative;
+}
+.formu .date-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .date-section input:focus + .label-date .content-date, .formu .date-section input:valid + .label-date .content-date {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .date-section input:focus + .label-date::after, .formu .date-section input:valid + .label-date::after {
+  transform: translateX(0%);
+}
+.formu .date-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .date-section label .content-date {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .date-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.formu .time-section {
+  margin-top: 50px;
+  position: relative;
+}
+.formu .time-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .time-section input:focus + .label-time .content-time, .formu .time-section input:valid + .label-time .content-time {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .time-section input:focus + .label-time::after, .formu .time-section input:valid + .label-time::after {
+  transform: translateX(0%);
+}
+.formu .time-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .time-section label .content-time {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .time-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.formu .phone-section {
+  margin-top: 50px;
+  position: relative;
+}
+.formu .phone-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .phone-section input:focus + .label-phone .content-phone, .formu .phone-section input:valid + .label-phone .content-phone {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .phone-section input:focus + .label-phone::after, .formu .phone-section input:valid + .label-phone::after {
+  transform: translateX(0%);
+}
+.formu .phone-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .phone-section label .content-phone {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .phone-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.formu .mail-section {
+  margin-top: 50px;
+  position: relative;
+}
+.formu .mail-section input {
+  width: 100%;
+  height: 100%;
+  color: #4b4b4b;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+.formu .mail-section input:focus + .label-mail .content-mail, .formu .mail-section input:valid + .label-mail .content-mail {
+  transform: translateY(-25%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+.formu .mail-section input:focus + .label-mail::after, .formu .mail-section input:valid + .label-mail::after {
+  transform: translateX(0%);
+}
+.formu .mail-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+.formu .mail-section label .content-mail {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+.formu .mail-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
 }
 
 /* Menú de comidas */
@@ -285,16 +605,16 @@ html {
   color: #fddcab;
 }
 
-footer, .form {
+footer {
   background-color: #fddcab;
   color: #5a5a5a;
 }
 
-.formato-texto, .menu-title, .form {
+.formato-texto, .menu-title, .formu {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.food-description .form label {
+.food-description .formu label {
   font-family: Arial, Helvetica, sans-serif;
 }
 

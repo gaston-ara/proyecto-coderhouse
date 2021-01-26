@@ -35,18 +35,18 @@ html{
     color: $color-secundario;
 }
 
-footer, .form{
+footer{
     background-color: $color-secundario;
     color: $color-texto-footer;
 }
 
 
 // Fuentes
-.formato-texto, .menu-title, .form{
+.formato-texto, .menu-title, .formu{
     font-family: $font-parrafos;
 }
 
-.food-description .form label{
+.food-description .formu label{
     font-family: $font-descripcion-comidas;
 }
 
