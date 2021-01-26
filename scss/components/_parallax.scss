@@ -15,6 +15,7 @@
         border-radius: 7px;
         color: rgb(255, 255, 255);
         text-align: center;
+        width: 346px;
         p{
             display: flex;
             margin: 2rem;
@@ -24,3 +25,8 @@
     }
 }
 
+@media only screen and (max-width: 350px) {
+  .parallax .bloque{
+        width: 280px;
+    }
+}

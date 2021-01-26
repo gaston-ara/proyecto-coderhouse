@@ -152,6 +152,7 @@ header {
   border-radius: 7px;
   color: white;
   text-align: center;
+  width: 346px;
 }
 .parallax .bloque p {
   display: flex;
@@ -160,15 +161,31 @@ header {
   height: 5rem;
 }
 
+@media only screen and (max-width: 350px) {
+  .parallax .bloque {
+    width: 280px;
+  }
+}
 .titulo-presentacion {
   font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1rem;
-  margin: 6rem 0 6rem 0;
+  margin: 6rem 0 3rem 0;
 }
 
+@media only screen and (max-width: 500px) {
+  .titulo-presentacion {
+    letter-spacing: 0.3rem;
+    margin: 6rem 0 0 0;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .titulo-presentacion {
+    font-size: 2rem;
+  }
+}
 @media only screen and (min-width: 280px) and (max-width: 768px) {
   .invertir {
     display: flex;
@@ -212,6 +229,35 @@ header {
   transition: 0.9s;
 }
 
+@media only screen and (max-width: 768px) {
+  .fila-carne {
+    margin: 5rem 0 5rem 0;
+  }
+  .fila-carne div a img:hover {
+    transform: none;
+  }
+
+  .fila-pasta {
+    margin: 5rem 0 5rem 0;
+  }
+  .fila-pasta div a img:hover {
+    transform: none;
+  }
+
+  .fila-postre {
+    margin: 5rem 0 5rem 0;
+  }
+  .fila-postre div a img:hover {
+    transform: none;
+  }
+
+  .fila-vino {
+    margin: 5rem 0 5rem 0;
+  }
+  .fila-vino div a img:hover {
+    transform: none;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;

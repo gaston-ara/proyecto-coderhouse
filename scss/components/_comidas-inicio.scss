@@ -1,10 +1,22 @@
 .titulo-presentacion{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 200;
     text-align: center;
     letter-spacing: 1rem;
-    margin: 6rem 0 6rem 0;
+    margin: 6rem 0 3rem 0;
+}
+@media only screen and (max-width: 500px) {
+    .titulo-presentacion{
+        letter-spacing: 0.3rem;
+        margin: 6rem 0 0 0;
+    }
+}    
+
+@media only screen and (max-width: 350px) {
+    .titulo-presentacion{
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
@@ -46,5 +58,32 @@
     div a img:hover{
         transform: translate(3rem, 0);
         transition: 0.90s;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .fila-carne{
+    margin: 5rem 0 5rem 0;
+        div a img:hover{
+            transform: none;
+        }
+    }
+    .fila-pasta{
+        margin: 5rem 0 5rem 0;
+        div a img:hover{
+            transform: none;
+        }
+    }
+    .fila-postre{
+        margin: 5rem 0 5rem 0;
+        div a img:hover{
+            transform: none;
+        }
+    }
+    .fila-vino{
+        margin: 5rem 0 5rem 0;
+        div a img:hover{
+            transform: none;
+        }
     }
 }
