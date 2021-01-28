@@ -1,0 +1,52 @@
+.reserva-parallax{
+    margin-top: -24px;
+    height: 100vh;
+    background: fixed no-repeat 50% 50%;
+    background-size: cover;
+    background-image: url('../../images/reserva.jpg');
+    display: flex;
+    .reserva-bloque{
+        display: flex;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.568);
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;;
+        font-size: 1.4rem;
+        border-radius: 7px;
+        color: rgb(255, 255, 255);
+        h2{
+            text-align: center;
+            font-size: 3rem;
+            margin: 20px;
+        }
+        p{
+            text-align: center;
+            font-size: 1rem;
+            margin: auto;
+            width: 300px;
+        }
+        .ver-mas:hover a{
+            color:  rgba(0, 0, 0, 0.568);
+        }
+        .ver-mas:hover{
+            border: 1px solid rgba(0, 0, 0, 0.568);
+            background-color: white;
+        }
+        .ver-mas{
+            width: 100px;
+            height: 42px;
+            border: 1px solid white;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+    }
+}

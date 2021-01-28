@@ -471,7 +471,7 @@ header {
 
 .parallax {
   margin-top: -24px;
-  height: 70vh;
+  height: 100vh;
   background: fixed no-repeat 50% 50%;
   background-size: cover;
   background-image: url("../../images/galeria/restaurant-691397_640.jpg");
@@ -592,15 +592,6 @@ header {
     transform: none;
   }
 }
-.titulo-reservas {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  font-weight: 200;
-  text-align: center;
-  letter-spacing: 1rem;
-  margin: 6rem 0 3rem 0;
-}
-
 /* Formularios */
 .contacto-container {
   width: 60%;
@@ -814,6 +805,73 @@ header {
     width: 100%;
   }
 }
+.reserva-parallax {
+  margin-top: -24px;
+  height: 100vh;
+  background: fixed no-repeat 50% 50%;
+  background-size: cover;
+  background-image: url("../../images/reserva.jpg");
+  display: flex;
+}
+.reserva-parallax .reserva-bloque {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.568);
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  border-radius: 7px;
+  color: white;
+}
+.reserva-parallax .reserva-bloque h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px;
+}
+.reserva-parallax .reserva-bloque p {
+  text-align: center;
+  font-size: 1rem;
+  margin: auto;
+  width: 300px;
+}
+.reserva-parallax .reserva-bloque .ver-mas:hover a {
+  color: rgba(0, 0, 0, 0.568);
+}
+.reserva-parallax .reserva-bloque .ver-mas:hover {
+  border: 1px solid rgba(0, 0, 0, 0.568);
+  background-color: white;
+}
+.reserva-parallax .reserva-bloque .ver-mas {
+  width: 100px;
+  height: 42px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.reserva-parallax .reserva-bloque .ver-mas a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contacto-inicio {
+  height: 100vh;
+  background-image: url("../../images/contacto.jpg");
+  background-size: cover;
+}
+.contacto-inicio .titulo-inicio-contacto {
+  top: 20px;
+  left: 200px;
+}
+.contacto-inicio .texto-inicio-contacto {
+  top: 20px;
+  left: 200px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
