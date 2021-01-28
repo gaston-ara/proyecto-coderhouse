@@ -3,7 +3,7 @@
 @import 'components/footer';
 @import 'extensions/extend';
 @import 'extensions/mixins';
-@import 'components/form';
+@import 'components/form-reservas';
 @import 'components/comidas';
 @import 'components/galeria';
 @import 'components/parrafo';
@@ -14,7 +14,7 @@
 @import 'components/parallax';
 @import 'components/comidas-inicio';
 @import 'components/reserva-inicio';
-
+@import 'components/form-contacto';
 
 * {
     margin: 0px;
@@ -42,7 +42,7 @@ footer{
 
 
 // Fuentes
-.formato-texto, .menu-title, .formu{
+.formato-texto, .menu-title{
     font-family: $font-parrafos;
 }
 

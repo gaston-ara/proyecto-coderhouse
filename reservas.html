@@ -34,7 +34,7 @@
         <!-- Logo -->
         <div>
             <a href="index.html">
-                <img src="images/el-restaurante.png" alt="logo">
+                <img src="images/el-restaurante.png" class="img-fluid" alt="logo">
             </a>
         </div>
     </header>
@@ -78,49 +78,56 @@
                 <h1 class="titulo-formato">Reservas</h1>
             </div>
             <p class="formato-texto">Realice su reserva, aceptamos horarios de reserva de 08:00hs a 23:00hs.</p>
-    
-    
-            <form action="" class="formu">
 
-                <div class="name-section">
-                    <input id="nombre" type="text" placeholder="" required>
-                    <label for="nombre" class="label-name"> <span class="content-name">Nombre</span></label>
-                </div>
+            <div class="reserva-container">
 
-                <div class="surname-section">                
-                    <input  id="apellido" type="text" placeholder="" required>
-                    <label for="apellido" class="label-surname"><span class="content-surname">Apellido</span></label>
-                </div>
+                <form action="#" class="formu">
 
-                <div class="diner-section">
-                    <input id="comensales" type="number" min="1" max="10" required>
-                    <label for="comensales" class="label-diner"><span class="content-diner">Cantidad de comensales</span></label>
-                </div>
+                    <div class="name-section">
+                        <input id="nombre" type="text" placeholder="" required>
+                        <label for="nombre" class="label-name"><span class="content-name">Nombre</span></label>
+                    </div>
 
-                <div class="date-section">
-                    <input  id="fecha" type="date" name="fecha" required>
-                    <label for="fecha" class="label-date"><span class="content-date">Ingrese fecha de reserva</span></label>
-                </div>
+                    <div class="surname-section">
+                        <input id="apellido" type="text" placeholder="" required>
+                        <label for="apellido" class="label-surname"><span
+                                class="content-surname">Apellido</span></label>
+                    </div>
 
-                <div class="time-section">
-                    <input  id="hora" type="time" name="hora" min="08:00" max="23:00" required>
-                    <label for="hora" class="label-time"><span class="content-time">Ingrese hora de reserva:</span></label>
-                </div>
+                    <div class="diner-section">
+                        <input id="comensales" type="number" min="1" max="10" required>
+                        <label for="comensales" class="label-diner"><span class="content-diner">Cantidad de
+                                comensales</span></label>
+                    </div>
 
-                <div class="phone-section">
-                        <input id="numero" type="tel" name="Telefono" required maxlength="10" pattern="[0-9]{10}" placeholder="(Sin 0 y sin 15)">
-                        <label for="numero" class="label-phone"><span class="content-phone">Número de teléfono</span> </label>
-                </div>
+                    <div class="date-section">
+                        <input id="fecha" type="date" name="fecha" required>
+                        <label for="fecha" class="label-date"><span class="content-date">Ingrese fecha de
+                                reserva</span></label>
+                    </div>
 
-                <div class="mail-section">
-                    <input id="email" type="email" placeholder="" required>
-                    <label for="email" class="label-mail"><span class="content-mail">Email</span></label>
-                </div>
+                    <div class="time-section">
+                        <input id="hora" type="time" name="hora" min="08:00" max="23:00" required>
+                        <label for="hora" class="label-time"><span class="content-time">Ingrese hora de
+                                reserva:</span></label>
+                    </div>
 
-                <input class="btn btn-primary my-4" type="submit" name="Reservar" value="Reservar">
-            </form>
-    
-        </div>
+                    <div class="phone-section">
+                        <input id="telefono" type="tel" name="Telefono" required maxlength="10" pattern="[0-9]{10}"
+                            placeholder="(Sin 0 y sin 15)">
+                        <label for="telefono" class="label-phone"><span class="content-phone">Número de teléfono</span>
+                        </label>
+                    </div>
+
+                    <div class="mail-section">
+                        <input id="email" type="email" placeholder="" required>
+                        <label for="email" class="label-mail"><span class="content-mail">Email</span></label>
+                    </div>
+
+                    <input class="btn btn-primary my-4" type="submit" name="Reservar" value="Reservar">
+                </form>
+
+            </div>
     </section>
 
     <!-- Pie de pagina -->
@@ -177,14 +184,14 @@
 
                     <div class="datos d-flex justify-content-center">
 
-                        <ul class="list-unstyled d-flex flex-column">
-                            <li class="my-2"><a href="https://www.instagram.com/" target="_blank"><img
+                        <ul class="list-unstyled d-flex flex-row">
+                            <li class="my-2 mx-2"><a href="https://www.instagram.com/" target="_blank"><img
                                         src="images/instagram.png" alt="instagram" width="28px"></a>
                             </li>
-                            <li class="my-2"><a href="https://www.facebook.com/" target="_blank"><img
+                            <li class="my-2 mx-2"><a href="https://www.facebook.com/" target="_blank"><img
                                         src="images/facebook.png" alt="facebook" width="28px"></a>
                             </li>
-                            <li class="my-2"><a href="https://www.twitter.com/" target="_blank"><img
+                            <li class="my-2 mx-2"><a href="https://www.twitter.com/" target="_blank"><img
                                         src="images/twitter.png" alt="twitter" width="28px"></a>
                             </li>
                         </ul>

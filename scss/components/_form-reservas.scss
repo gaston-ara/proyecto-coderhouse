@@ -1,0 +1,378 @@
+/* Formularios */
+
+.reserva-container{
+    width: 60%;
+    height: 730px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    .formu{
+        width: 90%;
+        position: relative;
+        height: 100%;
+        margin: auto;
+        margin-top: 30px;
+        overflow: hidden;
+        .name-section{
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color: rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-name .content-name, input:valid + .label-name .content-name{
+                transform: translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-name::after, input:valid + .label-name::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-name{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+        }
+        .surname-section{
+            margin-top: 50px;
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color:  rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-surname .content-surname, input:valid + .label-surname .content-surname{
+                transform:translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-surname::after, input:valid + .label-surname::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-surname{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+        }
+        .diner-section{
+            margin-top: 50px;
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color:  rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-diner .content-diner, input:valid + .label-diner .content-diner{
+                transform: translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-diner::after, input:valid + .label-diner::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-diner{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+        }
+        .date-section{
+            margin-top: 50px;
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color: rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-date .content-date, input:valid + .label-date .content-date{
+                transform: translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-date::after, input:valid + .label-date::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-date{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+        }
+        .time-section{
+            margin-top: 50px;
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color:  rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-time .content-time, input:valid + .label-time .content-time{
+                transform: translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-time::after, input:valid + .label-time::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-time{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+        }
+        .phone-section{
+            margin-top: 50px;
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color:  rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-phone .content-phone, input:valid + .label-phone .content-phone{
+                transform: translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-phone::after, input:valid + .label-phone::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-phone{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+        }   
+        .mail-section{
+            margin-top: 50px;
+            position: relative;
+            input{
+                width: 100%;
+                height: 100%;
+                color:  rgb(75, 75, 75);
+                padding-top: 20px;
+                border: none;
+                outline: none;
+            }
+
+            input:focus + .label-mail .content-mail, input:valid + .label-mail .content-mail{
+                transform: translateY(-25%);
+                font-size: 14px;
+                color: #5fa8d3;
+            }
+
+            input:focus + .label-mail::after, input:valid + .label-mail::after{
+                transform: translateX(0%);
+            }
+
+            label{
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                border-bottom: 1px solid black;
+
+                .content-mail{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 0px;
+                    transition: all 0.3s ease;
+                }
+            }
+            label::after{
+                content:"";
+                position: absolute;
+                left: 0px;
+                bottom: -1px;
+                height: 100%;
+                width: 100%;
+                border-bottom: 3px solid #5fa8d3;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+        } 
+    }
+}
+@media only screen and (max-width: 500px){
+    .reserva-container{
+        width: 100%;
+    }
+}

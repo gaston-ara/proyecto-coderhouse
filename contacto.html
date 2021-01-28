@@ -1,4 +1,4 @@
-i<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -34,7 +34,7 @@ i<!doctype html>
         <!-- Logo -->
         <div>
             <a href="index.html">
-                <img src="images/el-restaurante.png" alt="logo">
+                <img src="images/el-restaurante.png" class="img-fluid" alt="logo">
             </a>
         </div>
     </header>
@@ -73,27 +73,39 @@ i<!doctype html>
 
     <!-- Formulario de contacto -->
     <section>
-        <div>
-            <div class="title-container">
-                <h1 class="titulo-formato">Contacto</h1>
-            </div>
-            <form action="#" class="form">
-                <label for="nombre">Nombre.</label><br>
-                <input class="form-control" id="nombre" type="text" placeholder="Escriba su nombre" required><br>
 
-                <label for="apellido">Apellido.</label><br>
-                <input class="form-control" id="apellido" type="text" placeholder="Escriba su apellido" required><br>
+        <div class="title-container">
+            <h1 class="titulo-formato">Contacto</h1>
+        </div>
+        <div class="contacto-container">
+            <form action="#" class="form-contacto">
 
-                <label for="email">Email.</label><br>
-                <input class="form-control" id="email" type="email" placeholder="Escriba su email" required><br>
+                <div class="name-section">
+                    <input id="nombre" type="text" required>
+                    <label for="nombre" class="label-name"><span class="content-name">Nombre</span></label>
+                </div>
 
-                <label for="telefono">Teléfono</label><br>
-                <input class="form-control" id="telefono" type="tel" maxlength="10" pattern="[0-9]{10}"
-                    placeholder="(Opcional)"><br>
+                <div class="surname-section">
+                    <input id="apellido" type="text" required>
+                    <label for="apellido" class="label-surname"><span class="content-surname">Apellido</span> </label>
+                </div>
 
-                <label for="mensaje">Mensaje.</label><br>
-                <textarea class="form-control" id="mensaje" name="mensaje" cols="30" rows="10"
-                    placeholder="Escriba su mensaje."></textarea><br>
+                <div class="mail-section">
+                    <input id="email" type="email" required>
+                    <label for="email" class="label-mail"><span class="content-mail">Email</span></label>
+                </div>
+
+                <div class="phone-section">
+                    <input id="telefono" type="tel" name="Telefono" maxlength="10" pattern="[0-9]{10}" placeholder=""
+                        required>
+                    <label for="telefono" class="label-phone"><span class="content-phone">Teléfono</span> </label>
+                </div>
+
+                <div class="message-section">
+                    <label for="mensaje" class="label-message">Mensaje</label><br>
+                    <textarea id="mensaje" class="form-control" name="mensaje" cols="30" rows="10"
+                        placeholder="Escriba su mensaje." required></textarea>
+                </div>
 
                 <input class="btn btn-primary" type="submit" value="Enviar Mensaje">
             </form>
@@ -167,14 +179,14 @@ i<!doctype html>
 
                     <div class="datos d-flex justify-content-center">
 
-                        <ul class="list-unstyled d-flex flex-column">
-                            <li class="my-2"><a href="https://www.instagram.com/" target="_blank"><img
+                        <ul class="list-unstyled d-flex flex-row">
+                            <li class="my-2 mx-2"><a href="https://www.instagram.com/" target="_blank"><img
                                         src="images/instagram.png" alt="instagram" width="28px"></a>
                             </li>
-                            <li class="my-2"><a href="https://www.facebook.com/" target="_blank"><img
+                            <li class="my-2 mx-2"><a href="https://www.facebook.com/" target="_blank"><img
                                         src="images/facebook.png" alt="facebook" width="28px"></a>
                             </li>
-                            <li class="my-2"><a href="https://www.twitter.com/" target="_blank"><img
+                            <li class="my-2 mx-2"><a href="https://www.twitter.com/" target="_blank"><img
                                         src="images/twitter.png" alt="twitter" width="28px"></a>
                             </li>
                         </ul>
