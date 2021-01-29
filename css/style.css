@@ -2,7 +2,6 @@
 footer {
   font-size: 14px;
   line-height: 2;
-  margin-top: 20px;
 }
 
 header, .title-container, .titulo-formato, .mapa {
@@ -18,6 +17,7 @@ header, .title-container, .titulo-formato, .mapa {
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  margin-bottom: 30px;
 }
 .reserva-container .formu {
   width: 90%;
@@ -502,7 +502,7 @@ header {
 }
 .titulo-presentacion {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1rem;
@@ -538,6 +538,9 @@ header {
   transform: translate(-3rem, 0);
   transition: 0.9s;
 }
+.fila-carne div a img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 
 .fila-pasta {
   margin: 5rem 0 5rem 0;
@@ -545,6 +548,9 @@ header {
 .fila-pasta div a img:hover {
   transform: translate(3rem, 0);
   transition: 0.9s;
+}
+.fila-pasta div a img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .fila-postre {
@@ -554,6 +560,9 @@ header {
   transform: translate(-3rem, 0);
   transition: 0.9s;
 }
+.fila-postre div a img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 
 .fila-vino {
   margin: 5rem 0 5rem 0;
@@ -561,6 +570,9 @@ header {
 .fila-vino div a img:hover {
   transform: translate(3rem, 0);
   transition: 0.9s;
+}
+.fila-vino div a img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -863,13 +875,35 @@ header {
   background-image: url("../../images/contacto.jpg");
   background-size: cover;
 }
-.contacto-inicio .titulo-inicio-contacto {
-  top: 20px;
-  left: 200px;
+.contacto-inicio .contacto-bloque {
+  width: 36vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.534);
 }
-.contacto-inicio .texto-inicio-contacto {
-  top: 20px;
-  left: 200px;
+.contacto-inicio .contacto-bloque .row .titulo-inicio-contacto {
+  margin-top: 40vh;
+  text-align: center;
+  font-size: 3rem;
+}
+.contacto-inicio .contacto-bloque .row .texto-inicio-contacto {
+  margin: 15px 50px 30px 50px;
+  text-align: center;
+}
+.contacto-inicio .contacto-bloque .row .contactenos:hover {
+  border: 1px solid rgba(0, 0, 0, 0.568);
+  background-color: white;
+}
+.contacto-inicio .contacto-bloque .row .contactenos {
+  width: 120px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+}
+.contacto-inicio .contacto-bloque .row .contactenos a {
+  text-decoration: none;
+  color: black;
 }
 
 * {
