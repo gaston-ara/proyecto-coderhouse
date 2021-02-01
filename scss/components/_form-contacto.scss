@@ -1,20 +1,22 @@
 /* Formularios */
 .title-c-container{
     margin-top: -24px;
-    height: 50vh;
+    height: 60vh;
     background-image: url('../../images/titulo-contacto.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
     .bloque-c-titulo{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.678);
         text-align: center;
         margin: auto;
+        border-radius: 5px;
         width: 250px;
             .titulo-c-formato{
             font-family: 'Montserrat', sans-serif;
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             margin: 15px 0 15px 0;
             }
     }
@@ -249,5 +251,48 @@
 @media only screen and (max-width: 500px){
     .contacto-container{
         width: 100%;
+    }
+}
+
+/* Ubicación */
+
+.title-u-container{
+    height: 100vh;
+    background-image: url('../../images/titulo-ubicacion.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bloque-u-titulo{
+        background-color: rgba(255, 255, 255, 0.678);
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        width: 250px;
+            .titulo-u-formato{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            margin: 15px 0 15px 0;
+            }
+    }
+    .mapa-container{
+        background: rgba(0, 0, 0, 0.521);
+        border-radius: 5px;
+        padding: 25px;
+        width: 50vw;
+        margin-bottom: 50px;
+        .mapa{
+            margin: auto;
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .title-u-container{
+        height: 60vh;
+     .mapa-container{
+            width: 100vw;
+            padding: 5px;
+        }
     }
 }
