@@ -2,36 +2,47 @@
     height: 100vh;
     background-image: url('../../images/contacto.jpg');
     background-size: cover;
-    .contacto-bloque{
-        width: 36vw;
-        height: 100vh;
-        background: rgba(255, 255, 255, 0.534);
-        .row{
-            .titulo-inicio-contacto{
-            margin-top: 40vh;
-            text-align: center;
-            font-size: 3rem;
-            }
-            .texto-inicio-contacto{
-            margin: 15px 50px 30px 50px;
-            text-align: center;
-            }
-            .contactenos:hover{
-            border: 1px solid rgba(0, 0, 0, 0.568);
-            background-color: white;
-            }
-            .contactenos{
-            width: 120px;
-            height: 30px;
-            border: 1px solid black;
-            border-radius: 20px;
-            text-align: center;
-            margin: auto;
-                a{
-                text-decoration: none;
-                color: black
+        .contenedor-contacto{
+            display: flex;
+            align-items: center;
+            width: 36vw;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.534);
+            float: left;
+            .row{
+                .titulo-inicio-contacto{
+                text-align: center;
+                font-size: 3rem;
                 }
-            }        
+                .texto-inicio-contacto{
+                margin: 15px 15px 30px 15px;
+                text-align: center;
+                }
+                .contactenos:hover{
+                border: 1px solid rgba(0, 0, 0, 0.568);
+                background-color: white;
+                }
+                .contactenos{
+                width: 120px;
+                height: 30px;
+                border: 1px solid black;
+                border-radius: 20px;
+                text-align: center;
+                margin: auto;
+                    a{
+                    text-decoration: none;
+                    color: black
+                    }
+                }        
+            }
+        }
+
+}
+@media only screen and (max-width: 700px){
+    .contacto-inicio{
+        .contenedor-contacto{
+            width: 100vw;
+            float: none;
         }
     }
 }

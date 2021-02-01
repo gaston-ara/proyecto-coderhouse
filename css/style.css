@@ -509,8 +509,9 @@ header {
   margin: 6rem 0 3rem 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .titulo-presentacion {
+    font-size: 3rem;
     letter-spacing: 0.3rem;
     margin: 6rem 0 0 0;
   }
@@ -844,7 +845,7 @@ header {
   text-align: center;
   font-size: 1rem;
   margin: auto;
-  width: 300px;
+  width: 256px;
 }
 .reserva-parallax .reserva-bloque .ver-mas:hover a {
   color: rgba(0, 0, 0, 0.568);
@@ -875,25 +876,27 @@ header {
   background-image: url("../../images/contacto.jpg");
   background-size: cover;
 }
-.contacto-inicio .contacto-bloque {
+.contacto-inicio .contenedor-contacto {
+  display: flex;
+  align-items: center;
   width: 36vw;
   height: 100vh;
   background: rgba(255, 255, 255, 0.534);
+  float: left;
 }
-.contacto-inicio .contacto-bloque .row .titulo-inicio-contacto {
-  margin-top: 40vh;
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
   text-align: center;
   font-size: 3rem;
 }
-.contacto-inicio .contacto-bloque .row .texto-inicio-contacto {
-  margin: 15px 50px 30px 50px;
+.contacto-inicio .contenedor-contacto .row .texto-inicio-contacto {
+  margin: 15px 15px 30px 15px;
   text-align: center;
 }
-.contacto-inicio .contacto-bloque .row .contactenos:hover {
+.contacto-inicio .contenedor-contacto .row .contactenos:hover {
   border: 1px solid rgba(0, 0, 0, 0.568);
   background-color: white;
 }
-.contacto-inicio .contacto-bloque .row .contactenos {
+.contacto-inicio .contenedor-contacto .row .contactenos {
   width: 120px;
   height: 30px;
   border: 1px solid black;
@@ -901,11 +904,17 @@ header {
   text-align: center;
   margin: auto;
 }
-.contacto-inicio .contacto-bloque .row .contactenos a {
+.contacto-inicio .contenedor-contacto .row .contactenos a {
   text-decoration: none;
   color: black;
 }
 
+@media only screen and (max-width: 700px) {
+  .contacto-inicio .contenedor-contacto {
+    width: 100vw;
+    float: none;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
