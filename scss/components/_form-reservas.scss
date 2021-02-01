@@ -1,5 +1,24 @@
 /* Formularios */
-
+.title-r-container{
+    margin-top: -24px;
+    height: 50vh;
+    background-image: url('../../images/titulo-reservas.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    .bloque-r-titulo{
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        width: 250px;
+            .titulo-r-formato{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.25rem;
+            margin: 15px 0 15px 0;
+            }
+    }
+}
 .reserva-container{
     width: 60%;
     height: 730px;

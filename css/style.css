@@ -10,6 +10,27 @@ header, .title-container, .titulo-formato, .mapa {
 }
 
 /* Formularios */
+.title-r-container {
+  margin-top: -24px;
+  height: 50vh;
+  background-image: url("../../images/titulo-reservas.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.title-r-container .bloque-r-titulo {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+}
+.title-r-container .bloque-r-titulo .titulo-r-formato {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  margin: 15px 0 15px 0;
+}
+
 .reserva-container {
   width: 60%;
   height: 730px;
@@ -355,6 +376,27 @@ header, .title-container, .titulo-formato, .mapa {
   }
 }
 /* Menú de comidas */
+.title-m-container {
+  margin-top: -24px;
+  height: 50vh;
+  background-image: url("../../images/titulo-menu.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.title-m-container .bloque-m-titulo {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+}
+.title-m-container .bloque-m-titulo .titulo-m-formato {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  margin: 15px 0 15px 0;
+}
+
 .menu-title {
   width: 100%;
   font-size: 20px;
@@ -385,6 +427,27 @@ header, .title-container, .titulo-formato, .mapa {
 }
 
 /* Galeria */
+.title-g-container {
+  margin-top: -24px;
+  height: 50vh;
+  background-image: url("../../images/titulo-galeria.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.title-g-container .bloque-g-titulo {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+}
+.title-g-container .bloque-g-titulo .titulo-g-formato {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  margin: 15px 0 15px 0;
+}
+
 .fotos-container {
   display: flex;
   width: 100%;
@@ -474,7 +537,7 @@ header {
   height: 100vh;
   background: fixed no-repeat 50% 50%;
   background-size: cover;
-  background-image: url("../../images/galeria/restaurant-691397_640.jpg");
+  background-image: url("../../images/imagen-parallax.jpg");
   display: flex;
 }
 .parallax .bloque {
@@ -482,17 +545,16 @@ header {
   background: rgba(0, 0, 0, 0.568);
   margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   border-radius: 7px;
   color: white;
   text-align: center;
   width: 346px;
+  height: 200px;
 }
 .parallax .bloque p {
   display: flex;
-  margin: 2rem;
-  width: 20rem;
-  height: 5rem;
+  margin: auto;
 }
 
 @media only screen and (max-width: 350px) {
@@ -606,6 +668,27 @@ header {
   }
 }
 /* Formularios */
+.title-c-container {
+  margin-top: -24px;
+  height: 50vh;
+  background-image: url("../../images/titulo-contacto.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.title-c-container .bloque-c-titulo {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+}
+.title-c-container .bloque-c-titulo .titulo-c-formato {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  margin: 15px 0 15px 0;
+}
+
 .contacto-container {
   width: 60%;
   height: 730px;
@@ -925,11 +1008,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.menubar, .title-container, .titulo-formato {
+.menubar {
   background-color: brown;
 }
 
-.menu-enlace, .titulo-formato {
+.menu-enlace {
   color: #fddcab;
 }
 
