@@ -256,10 +256,11 @@
 /* Ubicación */
 
 .u-container{
-    height: 80vh;
+    height: 500px;
     background-image: url('../../images/titulo-ubicacion.jpg');
     background-size: cover;
     background-position: center;
+    margin-top: 50px;
     .bloque-u-titulo{
         background-color: rgba(255, 255, 255, 0.678);
         text-align: center;
@@ -273,19 +274,15 @@
     .mapa-container{
         display:flex;
         justify-content: center;
-       
         .mapa{
-            width: 80vw;
+            width: 50vw;
             margin: 10px;
+            iframe{
+                width: 100vw;
+                height: 400px;
+
+            }
         }
     }
 }
-@media only screen and (max-width: 1024px){
-    .title-u-container{
-        height: 60vh;
-     .mapa-container{
-            width: 100vw;
-            padding: 5px;
-        }
-    }
-}
+

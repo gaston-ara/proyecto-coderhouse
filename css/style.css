@@ -911,10 +911,11 @@ header {
 }
 /* Ubicación */
 .u-container {
-  height: 80vh;
+  height: 500px;
   background-image: url("../../images/titulo-ubicacion.jpg");
   background-size: cover;
   background-position: center;
+  margin-top: 50px;
 }
 .u-container .bloque-u-titulo {
   background-color: rgba(255, 255, 255, 0.678);
@@ -931,19 +932,14 @@ header {
   justify-content: center;
 }
 .u-container .mapa-container .mapa {
-  width: 80vw;
+  width: 50vw;
   margin: 10px;
 }
-
-@media only screen and (max-width: 1024px) {
-  .title-u-container {
-    height: 60vh;
-  }
-  .title-u-container .mapa-container {
-    width: 100vw;
-    padding: 5px;
-  }
+.u-container .mapa-container .mapa iframe {
+  width: 100vw;
+  height: 400px;
 }
+
 .reserva-parallax {
   margin-top: -24px;
   height: 100vh;
