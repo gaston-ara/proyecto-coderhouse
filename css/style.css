@@ -418,6 +418,7 @@ header, .title-container, .titulo-formato, .mapa {
 
 .food-title {
   text-align: center;
+  font-weight: 600;
 }
 
 .food-description {
@@ -610,6 +611,10 @@ header {
 .fila-carne div a img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.fila-carne .col-12 div h2 {
+  font-size: 2.1rem;
+  margin-top: 10px;
+}
 
 .fila-pasta {
   margin: 5rem 0 5rem 0;
@@ -620,6 +625,10 @@ header {
 }
 .fila-pasta div a img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.fila-pasta .col-12 div h2 {
+  font-size: 2.1rem;
+  margin-top: 10px;
 }
 
 .fila-postre {
@@ -632,6 +641,10 @@ header {
 .fila-postre div a img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.fila-postre .col-12 div h2 {
+  font-size: 2.1rem;
+  margin-top: 10px;
+}
 
 .fila-vino {
   margin: 5rem 0 5rem 0;
@@ -642,6 +655,10 @@ header {
 }
 .fila-vino div a img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.fila-vino .col-12 div h2 {
+  font-size: 2.1rem;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 768px) {
