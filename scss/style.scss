@@ -35,20 +35,12 @@ html{
 }
 
 /* Fuentes */
-.menu-title{
-    font-family: $font-parrafos;
+footer, .parallax .bloque{
+    font-family: $font-verdana;
 }
 
-.food-description .formu label{
-    font-family: $font-descripcion-comidas;
-}
-
-.food-title{
-    font-family: $font-nombre-comidas;
-}
-
-footer{
-    font-family: $font-footer;
+.titulo-presentacion, .reserva-bloque, .titulo-g-formato, .titulo-m-formato, .titulo-r-formato, .titulo-c-formato, .titulo-u-formato{
+    font-family: $font-montserrat
 }
 
 

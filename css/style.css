@@ -30,7 +30,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 250px;
 }
 .title-r-container .bloque-r-titulo .titulo-r-formato {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   margin: 15px 0 15px 0;
 }
@@ -453,13 +452,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 250px;
 }
 .title-m-container .bloque-m-titulo .titulo-m-formato {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   margin: 15px 0 15px 0;
 }
 
 .menu-title {
   width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
   text-align: center;
   border-bottom: 1px solid gray;
@@ -474,6 +473,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
 }
 
 .food-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   font-weight: 600;
 }
@@ -506,7 +506,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 250px;
 }
 .title-g-container .bloque-g-titulo .titulo-g-formato {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   margin: 15px 0 15px 0;
 }
@@ -570,7 +569,6 @@ header {
   display: flex;
   background: rgba(0, 0, 0, 0.568);
   margin: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.25rem;
   border-radius: 7px;
   color: white;
@@ -590,7 +588,6 @@ header {
 }
 /* Index - Presentacion Menú */
 .titulo-presentacion {
-  font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: 200;
   text-align: center;
@@ -752,7 +749,6 @@ header {
   width: 250px;
 }
 .title-c-container .bloque-c-titulo .titulo-c-formato {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   margin: 15px 0 15px 0;
 }
@@ -1014,7 +1010,6 @@ header {
   margin: auto;
 }
 .u-container .bloque-u-titulo .titulo-u-formato {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   margin: 15px 0 15px 0;
 }
@@ -1039,7 +1034,6 @@ header {
 .reserva-parallax .reserva-bloque {
   background: rgba(0, 0, 0, 0.568);
   margin: auto;
-  font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
   border-radius: 7px;
   color: white;
@@ -1144,20 +1138,12 @@ html {
 }
 
 /* Fuentes */
-.menu-title {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.food-description .formu label {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.food-title {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-footer {
+footer, .parallax .bloque {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-presentacion, .reserva-bloque, .titulo-g-formato, .titulo-m-formato, .titulo-r-formato, .titulo-c-formato, .titulo-u-formato {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
