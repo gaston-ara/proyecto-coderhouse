@@ -7,19 +7,21 @@
     background-image: url('../../images/imagen-parallax.jpg');
     display: flex;
     .bloque{
-        display: flex;
+        display: block;
         background: rgba(0, 0, 0, 0.568);
         margin: auto;
-        font-size: 1.25rem;
         border-radius: 7px;
         color: rgb(255, 255, 255);
         text-align: center;
         width: 346px;
-        height: 200px;
-        
+        height: 180px;
+        h1{
+            font-size: 1.2rem;
+            margin: 15px;
+        }
         p{
-            display: flex;
-            margin: auto;
+            font-style: italic;
+            font-size: 1.2rem;
         }
     }
 }

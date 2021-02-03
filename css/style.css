@@ -566,19 +566,22 @@ header {
   display: flex;
 }
 .parallax .bloque {
-  display: flex;
+  display: block;
   background: rgba(0, 0, 0, 0.568);
   margin: auto;
-  font-size: 1.25rem;
   border-radius: 7px;
   color: white;
   text-align: center;
   width: 346px;
-  height: 200px;
+  height: 180px;
+}
+.parallax .bloque h1 {
+  font-size: 1.2rem;
+  margin: 15px;
 }
 .parallax .bloque p {
-  display: flex;
-  margin: auto;
+  font-style: italic;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 350px) {
@@ -1007,7 +1010,6 @@ header {
 }
 .u-container .bloque-u-titulo {
   text-align: center;
-  margin: auto;
 }
 .u-container .bloque-u-titulo .titulo-u-formato {
   font-size: 1.5rem;
