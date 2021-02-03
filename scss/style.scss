@@ -26,7 +26,8 @@
 html{
     scroll-behavior: smooth;
 }
-
+$color-fondo-titulo: rgba(255, 255, 255, 0.678);
+$input-color:rgb(75, 75, 75);
 // Colores
 .menubar {
     background-color: $color-primario;
@@ -40,6 +41,14 @@ footer{
     background-color: $color-secundario;
     color: $color-texto-footer;
 }
+.bloque-r-titulo, .bloque-m-titulo, .bloque-g-titulo, .bloque-c-titulo, .bloque-u-titulo{
+    background-color: $color-fondo-titulo;
+}
+
+.name-section input, .surname-section input, .diner-section input,.date-section input, .time-section input, .phone-section input, .mail-section input, .form-contacto .name-section input, .form-contacto .surname-section input, .form-contacto .mail-section input, .form-contacto .phone-section input{
+    color: $input-color;
+}
+
 
 
 // Fuentes

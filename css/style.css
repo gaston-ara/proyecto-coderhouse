@@ -21,7 +21,6 @@ header, .title-container, .titulo-formato, .mapa {
   margin-bottom: 20px;
 }
 .title-r-container .bloque-r-titulo {
-  background-color: rgba(255, 255, 255, 0.678);
   text-align: center;
   border-radius: 5px;
   margin: auto;
@@ -56,7 +55,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .name-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -102,7 +100,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .surname-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -148,7 +145,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .diner-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -194,7 +190,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .date-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -240,7 +235,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .time-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -286,7 +280,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .phone-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -332,7 +325,6 @@ header, .title-container, .titulo-formato, .mapa {
 .reserva-container .formu .mail-section input {
   width: 100%;
   height: 100%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -389,7 +381,6 @@ header, .title-container, .titulo-formato, .mapa {
   margin-bottom: 20px;
 }
 .title-m-container .bloque-m-titulo {
-  background-color: rgba(255, 255, 255, 0.678);
   text-align: center;
   border-radius: 5px;
   margin: auto;
@@ -443,7 +434,6 @@ header, .title-container, .titulo-formato, .mapa {
   margin-bottom: 20px;
 }
 .title-g-container .bloque-g-titulo {
-  background-color: rgba(255, 255, 255, 0.747);
   text-align: center;
   border-radius: 5px;
   margin: auto;
@@ -702,7 +692,6 @@ header {
   margin-bottom: 20px;
 }
 .title-c-container .bloque-c-titulo {
-  background-color: rgba(255, 255, 255, 0.678);
   text-align: center;
   margin: auto;
   border-radius: 5px;
@@ -736,7 +725,6 @@ header {
 .contacto-container .form-contacto .name-section input {
   width: 100%;
   height: 7%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -782,7 +770,6 @@ header {
 .contacto-container .form-contacto .surname-section input {
   width: 100%;
   height: 7%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -828,7 +815,6 @@ header {
 .contacto-container .form-contacto .mail-section input {
   width: 100%;
   height: 7%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -875,7 +861,6 @@ header {
 .contacto-container .form-contacto .phone-section input {
   width: 100%;
   height: 7%;
-  color: #4b4b4b;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -935,7 +920,6 @@ header {
   margin-top: 50px;
 }
 .u-container .bloque-u-titulo {
-  background-color: rgba(255, 255, 255, 0.678);
   text-align: center;
   margin: auto;
 }
@@ -1020,7 +1004,7 @@ header {
   align-items: center;
   width: 36vw;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.534);
+  background: rgba(255, 255, 255, 0.5);
   float: left;
 }
 .contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
@@ -1075,6 +1059,14 @@ html {
 footer {
   background-color: #fddcab;
   color: #5a5a5a;
+}
+
+.bloque-r-titulo, .bloque-m-titulo, .bloque-g-titulo, .bloque-c-titulo, .bloque-u-titulo {
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+.name-section input, .surname-section input, .diner-section input, .date-section input, .time-section input, .phone-section input, .mail-section input, .form-contacto .name-section input, .form-contacto .surname-section input, .form-contacto .mail-section input, .form-contacto .phone-section input {
+  color: #4b4b4b;
 }
 
 .formato-texto, .menu-title {
