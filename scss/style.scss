@@ -4,11 +4,8 @@
 @import 'extensions/extend';
 @import 'extensions/mixins';
 @import 'components/form-reservas';
-@import 'components/comidas';
+@import 'components/menu-comidas';
 @import 'components/galeria';
-@import 'components/parrafo';
-@import 'components/titulos';
-@import 'components/carousel';
 @import 'components/menuboots';
 @import 'components/headers';
 @import 'components/parallax';
@@ -26,8 +23,7 @@
 html{
     scroll-behavior: smooth;
 }
-$color-fondo-titulo: rgba(255, 255, 255, 0.678);
-$input-color:rgb(75, 75, 75);
+
 // Colores
 .menubar {
     background-color: $color-primario;
@@ -52,7 +48,7 @@ footer{
 
 
 // Fuentes
-.formato-texto, .menu-title{
+.menu-title{
     font-family: $font-parrafos;
 }
 
@@ -68,12 +64,9 @@ footer{
     font-family: $font-footer;
 }
 
-.titulo-formato{
-    font-family: $font-titulo;
-}
 
 // Flexbox
 
-header, .title-container, .titulo-formato, .mapa{
+header, .mapa{
     @extend %flexbox-center;
 }

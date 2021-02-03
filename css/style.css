@@ -1,15 +1,16 @@
 @charset "UTF-8";
+/* Footer */
 footer {
   font-size: 14px;
   line-height: 2;
 }
 
-header, .title-container, .titulo-formato, .mapa {
+header, .mapa {
   display: flex;
   justify-content: center;
 }
 
-/* Formularios */
+/* Reservas */
 .title-r-container {
   margin-top: -24px;
   height: 60vh;
@@ -471,47 +472,6 @@ header, .title-container, .titulo-formato, .mapa {
   transition: 1s;
 }
 
-/* Parrafos */
-.formato-texto {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  font-size: 18px;
-  color: black;
-  line-height: 1.5;
-  text-indent: 10px;
-}
-
-/* Titulos */
-.title-container {
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.titulo-formato {
-  font-size: 30px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-/* Carousel */
-@media only screen and (min-width: 770px) {
-  .carousel .carousel-item {
-    height: 500px;
-  }
-
-  .carousel-item img {
-    object-fit: contain;
-    top: 0;
-    left: 0;
-    max-height: 500px;
-  }
-}
-.carousel-caption {
-  background-color: rgba(39, 39, 39, 0.349);
-}
-
 /* Menú Bootstrap */
 .nav-item a:hover {
   text-decoration: underline;
@@ -529,6 +489,7 @@ header {
   width: 100%;
 }
 
+/* Index- Parallax */
 .parallax {
   margin-top: -24px;
   height: 100vh;
@@ -559,6 +520,7 @@ header {
     width: 280px;
   }
 }
+/* Index - Presentacion Menú */
 .titulo-presentacion {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
@@ -680,7 +642,7 @@ header {
     transform: none;
   }
 }
-/* Formularios */
+/* Contacto */
 .title-c-container {
   margin-top: -24px;
   height: 60vh;
@@ -941,6 +903,7 @@ header {
   height: 400px;
 }
 
+/* Index - Parallax de reserva */
 .reserva-parallax {
   margin-top: -24px;
   height: 100vh;
@@ -994,6 +957,7 @@ header {
   font-weight: 600;
 }
 
+/* Index - Sección Contacto */
 .contacto-inicio {
   height: 100vh;
   background-image: url("../../images/contacto.jpg");
@@ -1049,7 +1013,7 @@ html {
 }
 
 .menubar {
-  background-color: brown;
+  background-color: #a62b2b;
 }
 
 .menu-enlace {
@@ -1069,7 +1033,7 @@ footer {
   color: #4b4b4b;
 }
 
-.formato-texto, .menu-title {
+.menu-title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
@@ -1083,10 +1047,6 @@ footer {
 
 footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.titulo-formato {
-  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
