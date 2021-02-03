@@ -37,7 +37,7 @@
 .fila-carne{
     margin: 5rem 0 5rem 0;
         div a img:hover{
-            transform: translate(-3rem, 0);
+            @include transform(translate(-3rem, 0));
             transition: 0.90s;
         }
         div a img{
@@ -52,7 +52,7 @@
 .fila-pasta{
     margin: 5rem 0 5rem 0;
     div a img:hover{
-        transform: translate(3rem, 0);
+        @include transform(translate(3rem, 0));
         transition: 0.90s;
     }
     div a img{
@@ -66,7 +66,7 @@
 .fila-postre{
     margin: 5rem 0 5rem 0;
     div a img:hover{
-        transform: translate(-3rem, 0);
+        @include transform(translate(-3rem, 0));
         transition: 0.90s;
     }
     div a img{
@@ -80,7 +80,7 @@
 .fila-vino{
     margin: 5rem 0 5rem 0;
     div a img:hover{
-        transform: translate(3rem, 0);
+        @include transform(translate(3rem, 0));
         transition: 0.90s;
     }
     div a img{
@@ -96,25 +96,25 @@
     .fila-carne{
     margin: 5rem 0 5rem 0;
         div a img:hover{
-            transform: none;
+            @include transform(none);
         }
     }
     .fila-pasta{
         margin: 5rem 0 5rem 0;
         div a img:hover{
-            transform: none;
+            @include transform(none);
         }
     }
     .fila-postre{
         margin: 5rem 0 5rem 0;
         div a img:hover{
-            transform: none;
+            @include transform(none);
         }
     }
     .fila-vino{
         margin: 5rem 0 5rem 0;
         div a img:hover{
-            transform: none;
+            @include transform(none);
         }
     }
 }

@@ -46,13 +46,13 @@
             }
 
             input:focus + .label-name .content-name, input:valid + .label-name .content-name{
-                transform: translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-name::after, input:valid + .label-name::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -79,7 +79,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
 
@@ -96,13 +96,13 @@
             }
 
             input:focus + .label-surname .content-surname, input:valid + .label-surname .content-surname{
-                transform:translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-surname::after, input:valid + .label-surname::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -129,7 +129,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
 
@@ -146,13 +146,13 @@
             }
 
             input:focus + .label-diner .content-diner, input:valid + .label-diner .content-diner{
-                transform: translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-diner::after, input:valid + .label-diner::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -179,7 +179,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
 
@@ -196,13 +196,13 @@
             }
 
             input:focus + .label-date .content-date, input:valid + .label-date .content-date{
-                transform: translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-date::after, input:valid + .label-date::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -229,7 +229,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
 
@@ -246,13 +246,13 @@
             }
 
             input:focus + .label-time .content-time, input:valid + .label-time .content-time{
-                transform: translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-time::after, input:valid + .label-time::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -279,7 +279,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
 
@@ -296,13 +296,13 @@
             }
 
             input:focus + .label-phone .content-phone, input:valid + .label-phone .content-phone{
-                transform: translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-phone::after, input:valid + .label-phone::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -329,7 +329,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
 
@@ -346,13 +346,13 @@
             }
 
             input:focus + .label-mail .content-mail, input:valid + .label-mail .content-mail{
-                transform: translateY(-25%);
+                @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
 
             input:focus + .label-mail::after, input:valid + .label-mail::after{
-                transform: translateX(0%);
+                @include transform(translateX(0%));
             }
 
             label{
@@ -379,7 +379,7 @@
                 height: 100%;
                 width: 100%;
                 border-bottom: 3px solid #5fa8d3;
-                transform: translateX(-100%);
+                @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         } 

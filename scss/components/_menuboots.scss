@@ -1,9 +1,12 @@
 /* Menú Bootstrap */
-
-.nav-item a:hover{
+.menubar{
+    background-color: rgb(166, 43, 43);
+    .nav-item a:hover{
     text-decoration: underline;
     color: white;
-}
-.menu-enlace{
-    font-size: 1.25rem;
+    }
+    .menu-enlace{
+        font-size: 1.25rem;
+        color:  rgb(253, 220, 171);
+    }
 }
