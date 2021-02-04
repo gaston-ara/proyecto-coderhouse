@@ -1,12 +1,20 @@
 {
-  "name": "proyecto",
+  "name": "el-restaurante",
   "version": "1.0.0",
+  "description": "El Restaurante es un sitio web creado utilizando como base HTML, CSS y Javascript aportado por Bootstrap",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Gastón Aragón",
   "license": "ISC",
+  "dependencies": {
+    "npm": "6.14.9",
+    "node": "v14.15.3",
+    "bootstrap": "5.0.0",
+    "sass": "1.30.0 compiled with dart2js 2.10.4",
+    "git": "2.30.0.windows.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gaston-ara/proyecto-coderhouse.git"
@@ -14,6 +22,5 @@
   "bugs": {
     "url": "https://github.com/gaston-ara/proyecto-coderhouse/issues"
   },
-  "homepage": "https://github.com/gaston-ara/proyecto-coderhouse#readme",
-  "description": ""
+  "homepage": "https://github.com/gaston-ara/proyecto-coderhouse#readme"
 }
