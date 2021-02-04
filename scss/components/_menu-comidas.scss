@@ -13,12 +13,13 @@
         border-radius: 5px;
         margin: auto;
         width: 250px;
-            .titulo-m-formato{
+        .titulo-m-formato{
             font-size: 1.5rem;
             margin: 15px 0 15px 0;
-            }
+        }
     }
 }
+
 .menu-title {
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,25 +29,21 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
 .food-container {
     display: flex;
     flex-direction: column;
     margin: 80px 20px 80px 20px;
 }
-
 .food-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: 600;
 }
-
 .food-description {
     text-align: center;
     font-size: 14px;
     font-style: italic;
 }
-
 .price {
     margin: auto;
 }

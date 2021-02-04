@@ -13,10 +13,10 @@
         border-radius: 5px;
         margin: auto;
         width: 250px;
-            .titulo-r-formato{
+        .titulo-r-formato{
             font-size: 1.5rem;
             margin: 15px 0 15px 0;
-            }
+        }
     }
 }
 .reserva-container{
@@ -43,17 +43,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-name .content-name, input:valid + .label-name .content-name{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-name::after, input:valid + .label-name::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -62,7 +59,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-name{
                     position: absolute;
                     bottom: 20px;
@@ -81,8 +77,8 @@
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
-
         }
+
         .surname-section{
             margin-top: 50px;
             position: relative;
@@ -93,17 +89,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-surname .content-surname, input:valid + .label-surname .content-surname{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-surname::after, input:valid + .label-surname::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -112,7 +105,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-surname{
                     position: absolute;
                     bottom: 20px;
@@ -131,8 +123,8 @@
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
-
         }
+
         .diner-section{
             margin-top: 50px;
             position: relative;
@@ -143,17 +135,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-diner .content-diner, input:valid + .label-diner .content-diner{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-diner::after, input:valid + .label-diner::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -162,7 +151,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-diner{
                     position: absolute;
                     bottom: 20px;
@@ -181,8 +169,8 @@
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
-
         }
+
         .date-section{
             margin-top: 50px;
             position: relative;
@@ -193,17 +181,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-date .content-date, input:valid + .label-date .content-date{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-date::after, input:valid + .label-date::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -212,7 +197,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-date{
                     position: absolute;
                     bottom: 20px;
@@ -231,8 +215,8 @@
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
-
         }
+
         .time-section{
             margin-top: 50px;
             position: relative;
@@ -243,17 +227,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-time .content-time, input:valid + .label-time .content-time{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-time::after, input:valid + .label-time::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -262,7 +243,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-time{
                     position: absolute;
                     bottom: 20px;
@@ -281,8 +261,8 @@
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
-
         }
+
         .phone-section{
             margin-top: 50px;
             position: relative;
@@ -293,17 +273,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-phone .content-phone, input:valid + .label-phone .content-phone{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-phone::after, input:valid + .label-phone::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -312,7 +289,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-phone{
                     position: absolute;
                     bottom: 20px;
@@ -331,8 +307,8 @@
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
-
         }   
+
         .mail-section{
             margin-top: 50px;
             position: relative;
@@ -343,17 +319,14 @@
                 border: none;
                 outline: none;
             }
-
             input:focus + .label-mail .content-mail, input:valid + .label-mail .content-mail{
                 @include transform(translateY(-25%));
                 font-size: 14px;
                 color: #5fa8d3;
             }
-
             input:focus + .label-mail::after, input:valid + .label-mail::after{
                 @include transform(translateX(0%));
             }
-
             label{
                 position: absolute;
                 bottom: 0px;
@@ -362,7 +335,6 @@
                 height: 100%;
                 pointer-events: none;
                 border-bottom: 1px solid black;
-
                 .content-mail{
                     position: absolute;
                     bottom: 20px;

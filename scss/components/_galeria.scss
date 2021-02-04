@@ -13,12 +13,13 @@
         border-radius: 5px;
         margin: auto;
         width: 250px;
-            .titulo-g-formato{
+        .titulo-g-formato{
             font-size: 1.5rem;
             margin: 15px 0 15px 0;
-            }
+        }
     }
 }
+
 .fotos-container {
     display: flex;
     width: 100%;
@@ -34,8 +35,7 @@
     margin: 20px;
     object-fit: cover;
     filter: contrast(70%);
-
-    &:hover {
+    &:hover{
         filter: contrast(100%);
         @include transform(scale(1.02));
         transition: 1s;

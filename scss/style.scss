@@ -24,7 +24,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
 /* Colores */
 .bloque-r-titulo, .bloque-m-titulo, .bloque-g-titulo, .bloque-c-titulo, .bloque-u-titulo{
     background-color: $color-fondo-titulo;
@@ -43,9 +42,7 @@ footer, .parallax .bloque{
     font-family: $font-montserrat
 }
 
-
 // Flexbox
-
 header, .mapa, .mapa-container, .reserva-bloque{
     @extend %flexbox-center;
 }
