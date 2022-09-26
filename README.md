@@ -12,8 +12,8 @@
 - 📫 How to reach me **gaston.ara.o@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
-<div style:"background=white">
-<a align="left"  href="https://linkedin.com/in/gaston-aragon" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="gaston-aragon" height="30" width="40" /></a>
+<div>
+<a align="left" style:"background=white" href="https://linkedin.com/in/gaston-aragon" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="gaston-aragon" height="30" width="40" /></a>
 </div>
 
 <h3 align="left">Languages and Tools:</h3>
