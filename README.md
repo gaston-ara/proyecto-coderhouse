@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Gastón Aragón</h1>
 <h3 align="center">A passionate frontend development student from Argentina</h3>
 
-- 🌱 I’m currently learning **Javascript**
+- 🌱 I’m currently learning **Next.js**
 
-- 👯 I’m looking to collaborate on **websites with HTML and CSS**
+- 👯 I’m looking to collaborate on **websites with React and Next.js**
 
 - 👨‍💻 All of my projects are available at [https://github.com/gaston-ara](https://github.com/gaston-ara)
 
-- 💬 Ask me about **Bootstrap, SASS**
+- 💬 Ask me about **SEO, UX-UI**
 
 - 📫 How to reach me **gaston.ara.o@gmail.com**
 
