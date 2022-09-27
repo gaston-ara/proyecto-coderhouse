@@ -1,4 +1,99 @@
+@import '../base/fonts';
+@import '../base/colors';
+
 %flexbox-center{
     display: flex;
     justify-content: center;
+}
+%navlink-font{
+    font-size: 20px;
+    color: $secondary-color;
+    font-family: $font-paragraph;
+    font-weight: 500;
+    text-align: center;
+}
+%title-76{
+    font-size: 76px;
+    color: $text-color;
+    font-family: $font-title;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1rem;
+    margin: 6rem 0 3rem 0;
+}
+%title-49{
+    font-size: 49px;
+    color: $text-color;
+    font-family: $font-title;
+    font-weight: 600;
+    text-align: center;
+}
+%title-49-white{
+    font-size: 49px;
+    color: $white-color;
+    font-family: $font-title;
+    font-weight: 600;
+    text-align: center;
+}
+%title-31{
+    font-size: 31px;
+    color: $text-color;
+    font-family: $font-paragraph;
+    font-weight: 600;
+    text-align: left;
+}
+%text-25{
+    font-size: 25px;
+    color: $white-color;
+    font-family: $font-paragraph;
+    font-weight: 500;
+    text-align: center;
+}
+%text-20{
+    font-size: 20px;
+    color: $white-color;
+    font-family: $font-paragraph;
+    font-weight: 400;
+    text-align: center;
+}
+%text-16{
+    font-size: 16px;
+    color: $text-color;
+    font-family: $font-paragraph;
+    font-weight: 400;
+    text-align: left;
+}
+%text-16-white{
+    font-size: 16px;
+    color: $white-color;
+    font-family: $font-paragraph;
+    font-weight: 400;
+    text-align: center;
+}
+%text-input-effect{
+    font-size: 14px;
+    color: $effect-color-input;
+    font-family: $font-paragraph;
+    font-weight: 400;
+}
+
+// Menu
+%title-menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 31px;
+    text-align: center;
+    color: $text-color
+};
+%title-food{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: $text-color
+};
+%description-food{
+    text-align: center;
+    font-size: 14px;
+    font-family: $font-paragraph;
+    font-style: italic;
 }

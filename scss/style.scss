@@ -19,30 +19,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 html{
     scroll-behavior: smooth;
-}
-
-/* Colores */
-.bloque-r-titulo, .bloque-m-titulo, .bloque-g-titulo, .bloque-c-titulo, .bloque-u-titulo{
-    background-color: $color-fondo-titulo;
-}
-
-.name-section input, .surname-section input, .diner-section input,.date-section input, .time-section input, .phone-section input, .mail-section input, .form-contacto .name-section input, .form-contacto .surname-section input, .form-contacto .mail-section input, .form-contacto .phone-section input{
-    color: $input-color;
-}
-
-/* Fuentes */
-footer, .parallax .bloque{
-    font-family: $font-verdana;
-}
-
-.titulo-presentacion, .reserva-bloque, .titulo-g-formato, .titulo-m-formato, .titulo-r-formato, .titulo-c-formato, .titulo-u-formato{
-    font-family: $font-montserrat
-}
-
-// Flexbox
-header, .mapa, .mapa-container, .reserva-bloque{
-    @extend %flexbox-center;
 }

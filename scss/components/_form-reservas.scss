@@ -1,52 +1,51 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Reservas */
 .title-r-container{
-    margin-top: -24px;
     height: 60vh;
     background-image: url('../../images/titulo-reservas.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
     .bloque-r-titulo{
-        text-align: center;
-        border-radius: 5px;
         margin: auto;
-        width: 250px;
+        width: fit-content;
         .titulo-r-formato{
-            font-size: 1.5rem;
-            margin: 15px 0 15px 0;
+            @extend %title-31;
+            padding: 24px 48px;
+            border-radius: 8px;
+            background-color: $transparent-white-color;
         }
     }
 }
 .reserva-container{
-    width: 60%;
-    height: 730px;
+    width: 90%;
+    max-width: 800px;
     margin: auto;
-    border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-    margin-bottom: 30px;
+    border: 1px solid $white-color;
+    border-radius: 16px;
+    box-shadow: $grey-20 0px 18px 50px -10px;
+    padding: 48px;
     .formu{
         width: 90%;
+        max-width: 800px;
         position: relative;
-        height: 100%;
         margin: auto;
-        margin-top: 30px;
         overflow: hidden;
         .name-section{
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-name .content-name, input:valid + .label-name .content-name{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-name::after, input:valid + .label-name::after{
                 @include transform(translateX(0%));
@@ -58,10 +57,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-name{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -73,26 +72,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .surname-section{
-            margin-top: 50px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-surname .content-surname, input:valid + .label-surname .content-surname{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-surname::after, input:valid + .label-surname::after{
                 @include transform(translateX(0%));
@@ -104,10 +102,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-surname{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -119,26 +117,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .diner-section{
-            margin-top: 50px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-diner .content-diner, input:valid + .label-diner .content-diner{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-diner::after, input:valid + .label-diner::after{
                 @include transform(translateX(0%));
@@ -150,10 +147,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-diner{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -165,26 +162,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .date-section{
-            margin-top: 50px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-date .content-date, input:valid + .label-date .content-date{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-date::after, input:valid + .label-date::after{
                 @include transform(translateX(0%));
@@ -196,10 +192,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-date{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -211,26 +207,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .time-section{
-            margin-top: 50px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-time .content-time, input:valid + .label-time .content-time{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-time::after, input:valid + .label-time::after{
                 @include transform(translateX(0%));
@@ -242,10 +237,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-time{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -257,26 +252,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .phone-section{
-            margin-top: 50px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-phone .content-phone, input:valid + .label-phone .content-phone{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-phone::after, input:valid + .label-phone::after{
                 @include transform(translateX(0%));
@@ -288,10 +282,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-phone{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -303,26 +297,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }   
 
         .mail-section{
-            margin-top: 50px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
                 height: 100%;
-                padding-top: 20px;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-mail .content-mail, input:valid + .label-mail .content-mail{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-mail::after, input:valid + .label-mail::after{
                 @include transform(translateX(0%));
@@ -334,10 +327,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-mail{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -349,7 +342,7 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }

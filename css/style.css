@@ -1,54 +1,366 @@
 @charset "UTF-8";
-/* Footer */
-footer {
-  font-size: 14px;
-  line-height: 2;
-  background-color: #fddcab;
-  color: #5a5a5a;
-}
-
-header, .mapa, .mapa-container, .reserva-bloque {
+.u-container .mapa-container .mapa, header {
   display: flex;
   justify-content: center;
 }
 
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-g-container .bloque-g-titulo .titulo-g-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-r-container .bloque-r-titulo .titulo-r-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  background-color: hsl(36deg, 95%, 83%);
+}
+
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-g-container .bloque-g-titulo .titulo-g-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-r-container .bloque-r-titulo .titulo-r-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-g-container .bloque-g-titulo .titulo-g-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-r-container .bloque-r-titulo .titulo-r-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
 /* Reservas */
 .title-r-container {
-  margin-top: -24px;
   height: 60vh;
   background-image: url("../../images/titulo-reservas.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 .title-r-container .bloque-r-titulo {
-  text-align: center;
-  border-radius: 5px;
   margin: auto;
-  width: 250px;
+  width: fit-content;
 }
 .title-r-container .bloque-r-titulo .titulo-r-formato {
-  font-size: 1.5rem;
-  margin: 15px 0 15px 0;
+  padding: 24px 48px;
+  border-radius: 8px;
+  background-color: hsla(0deg, 0%, 95%, 0.75);
 }
 
 .reserva-container {
-  width: 60%;
-  height: 730px;
+  width: 90%;
+  max-width: 800px;
   margin: auto;
-  border: 1px solid white;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-  margin-bottom: 30px;
+  border: 1px solid hsl(0deg, 0%, 95%);
+  border-radius: 16px;
+  box-shadow: hsl(0deg, 0%, 80%) 0px 18px 50px -10px;
+  padding: 48px;
 }
 .reserva-container .formu {
   width: 90%;
+  max-width: 800px;
   position: relative;
-  height: 100%;
   margin: auto;
-  margin-top: 30px;
   overflow: hidden;
 }
 .reserva-container .formu .name-section {
@@ -57,7 +369,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
 .reserva-container .formu .name-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -66,8 +378,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .name-section input:focus + .label-name::after, .reserva-container .formu .name-section input:valid + .label-name::after {
   -webkit-transform: translateX(0%);
@@ -82,11 +392,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .name-section label .content-name {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -97,7 +407,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -105,13 +415,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   transition: transform 0.3s ease;
 }
 .reserva-container .formu .surname-section {
-  margin-top: 50px;
+  margin-top: 32px;
   position: relative;
 }
 .reserva-container .formu .surname-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -120,8 +430,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .surname-section input:focus + .label-surname::after, .reserva-container .formu .surname-section input:valid + .label-surname::after {
   -webkit-transform: translateX(0%);
@@ -136,11 +444,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .surname-section label .content-surname {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -151,7 +459,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -159,13 +467,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   transition: transform 0.3s ease;
 }
 .reserva-container .formu .diner-section {
-  margin-top: 50px;
+  margin-top: 32px;
   position: relative;
 }
 .reserva-container .formu .diner-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -174,8 +482,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .diner-section input:focus + .label-diner::after, .reserva-container .formu .diner-section input:valid + .label-diner::after {
   -webkit-transform: translateX(0%);
@@ -190,11 +496,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .diner-section label .content-diner {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -205,7 +511,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -213,13 +519,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   transition: transform 0.3s ease;
 }
 .reserva-container .formu .date-section {
-  margin-top: 50px;
+  margin-top: 32px;
   position: relative;
 }
 .reserva-container .formu .date-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -228,8 +534,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .date-section input:focus + .label-date::after, .reserva-container .formu .date-section input:valid + .label-date::after {
   -webkit-transform: translateX(0%);
@@ -244,11 +548,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .date-section label .content-date {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -259,7 +563,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -267,13 +571,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   transition: transform 0.3s ease;
 }
 .reserva-container .formu .time-section {
-  margin-top: 50px;
+  margin-top: 32px;
   position: relative;
 }
 .reserva-container .formu .time-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -282,8 +586,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .time-section input:focus + .label-time::after, .reserva-container .formu .time-section input:valid + .label-time::after {
   -webkit-transform: translateX(0%);
@@ -298,11 +600,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .time-section label .content-time {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -313,7 +615,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -321,13 +623,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   transition: transform 0.3s ease;
 }
 .reserva-container .formu .phone-section {
-  margin-top: 50px;
+  margin-top: 32px;
   position: relative;
 }
 .reserva-container .formu .phone-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -336,8 +638,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .phone-section input:focus + .label-phone::after, .reserva-container .formu .phone-section input:valid + .label-phone::after {
   -webkit-transform: translateX(0%);
@@ -352,11 +652,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .phone-section label .content-phone {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -367,7 +667,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -375,13 +675,13 @@ header, .mapa, .mapa-container, .reserva-bloque {
   transition: transform 0.3s ease;
 }
 .reserva-container .formu .mail-section {
-  margin-top: 50px;
+  margin-top: 32px;
   position: relative;
 }
 .reserva-container .formu .mail-section input {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -390,8 +690,6 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .reserva-container .formu .mail-section input:focus + .label-mail::after, .reserva-container .formu .mail-section input:valid + .label-mail::after {
   -webkit-transform: translateX(0%);
@@ -406,11 +704,11 @@ header, .mapa, .mapa-container, .reserva-bloque {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .reserva-container .formu .mail-section label .content-mail {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -421,7 +719,7 @@ header, .mapa, .mapa-container, .reserva-bloque {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -434,98 +732,293 @@ header, .mapa, .mapa-container, .reserva-bloque {
     width: 100%;
   }
 }
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-g-container .bloque-g-titulo .titulo-g-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-r-container .bloque-r-titulo .titulo-r-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
 /* Menú de comidas */
 .title-m-container {
-  margin-top: -24px;
   height: 60vh;
   background-image: url("../../images/titulo-menu.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 .title-m-container .bloque-m-titulo {
-  text-align: center;
-  border-radius: 5px;
   margin: auto;
-  width: 250px;
+  width: fit-content;
 }
 .title-m-container .bloque-m-titulo .titulo-m-formato {
-  font-size: 1.5rem;
-  margin: 15px 0 15px 0;
+  padding: 24px 48px;
+  border-radius: 8px;
+  background-color: hsla(0deg, 0%, 95%, 0.75);
 }
 
-.menu-title {
+.menu-title h2 {
   width: 100%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
-  border-bottom: 1px solid gray;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  border-bottom: 1px solid hsl(0deg, 0%, 50%);
+  padding: 8px 0;
 }
 
 .food-container {
   display: flex;
   flex-direction: column;
-  margin: 80px 20px 80px 20px;
-}
-
-.food-title {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
-  font-weight: 600;
-}
-
-.food-description {
-  text-align: center;
-  font-size: 14px;
-  font-style: italic;
+  margin: 80px 24px;
 }
 
 .price {
   margin: auto;
 }
 
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-g-container .bloque-g-titulo .titulo-g-formato, .title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
 /* Galeria */
 .title-g-container {
-  margin-top: -24px;
   height: 60vh;
   background-image: url("../../images/titulo-galeria.jpg");
   background-size: cover;
   background-position: center 28%;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .title-g-container .bloque-g-titulo {
-  text-align: center;
-  border-radius: 5px;
   margin: auto;
-  width: 250px;
+  width: fit-content;
 }
 .title-g-container .bloque-g-titulo .titulo-g-formato {
-  font-size: 1.5rem;
-  margin: 15px 0 15px 0;
+  padding: 24px 48px;
+  border-radius: 8px;
+  background-color: hsla(0deg, 0%, 95%, 0.75);
 }
 
 .fotos-container {
   display: flex;
   width: 100%;
+  max-width: 1000px;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 1000px;
   margin: auto;
-  margin-top: 30px;
 }
 
 .foto-item {
   width: 200px;
   height: 200px;
-  margin: 20px;
+  margin: 24px;
   object-fit: cover;
   filter: contrast(70%);
+  transition: 0.9s;
 }
 .foto-item:hover {
   filter: contrast(100%);
@@ -533,32 +1026,355 @@ header, .mapa, .mapa-container, .reserva-bloque {
   -ms-transform: scale(1.02);
   -o-transform: scale(1.02);
   transform: scale(1.02);
-  transition: 1s;
+}
+
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
 }
 
 /* Menú Bootstrap */
 .menubar {
-  background-color: #a62b2b;
+  background-color: hsl(0deg, 59%, 41%);
+  min-height: 48px;
+}
+.menubar .nav-item a {
+  transition: 0.3s;
 }
 .menubar .nav-item a:hover {
   text-decoration: underline;
-  color: white;
+  color: hsl(0deg, 0%, 95%);
 }
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
 .menubar .menu-enlace {
-  font-size: 1.25rem;
-  color: #fddcab;
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
 }
 
 /* Encabezado */
 header {
-  flex-direction: column;
-  align-items: center;
   width: 100%;
+  margin: 8px 0;
+}
+header img {
+  user-select: none;
+}
+
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
 }
 
 /* Index- Parallax */
 .parallax {
-  margin-top: -24px;
   height: 100vh;
   background: fixed no-repeat 50% 50%;
   background-size: cover;
@@ -567,21 +1383,19 @@ header {
 }
 .parallax .bloque {
   display: block;
-  background: rgba(0, 0, 0, 0.568);
+  background: hsla(0deg, 0%, 15%, 0.7);
   margin: auto;
-  border-radius: 7px;
-  color: white;
+  border-radius: 8px;
   text-align: center;
-  width: 346px;
-  height: 180px;
+  max-width: 424px;
+  width: fit-content;
+  padding: 24px;
 }
 .parallax .bloque h1 {
-  font-size: 1.2rem;
-  margin: 15px;
+  margin: 16px;
 }
 .parallax .bloque p {
   font-style: italic;
-  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 350px) {
@@ -589,25 +1403,125 @@ header {
     width: 280px;
   }
 }
-/* Index - Presentacion Menú */
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
 .titulo-presentacion {
-  font-size: 4rem;
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1rem;
   margin: 6rem 0 3rem 0;
 }
 
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .fila-vino .col-12 div h2, .fila-postre .col-12 div h2, .fila-pasta .col-12 div h2, .fila-carne .col-12 div h2, .title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, .fila-vino .col-12 div p, .fila-postre .col-12 div p, .fila-pasta .col-12 div p, .fila-carne .col-12 div p, footer {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
+/* Index - Presentacion Menú */
 @media only screen and (max-width: 700px) {
   .titulo-presentacion {
-    font-size: 3rem;
-    letter-spacing: 0.3rem;
-    margin: 6rem 0 0 0;
+    font-size: 49px;
+    letter-spacing: 4px;
+    margin: 96px 0 0 0;
   }
 }
 @media only screen and (max-width: 350px) {
   .titulo-presentacion {
-    font-size: 2rem;
+    font-size: 31px;
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 768px) {
@@ -622,80 +1536,92 @@ header {
   }
 }
 .fila-carne {
-  margin: 5rem 0 5rem 0;
+  margin: 80px 0;
 }
 .fila-carne div a img:hover {
-  -webkit-transform: translate(-3rem, 0);
-  -ms-transform: translate(-3rem, 0);
-  -o-transform: translate(-3rem, 0);
-  transform: translate(-3rem, 0);
-  transition: 0.9s;
+  -webkit-transform: translate(-48px, 0);
+  -ms-transform: translate(-48px, 0);
+  -o-transform: translate(-48px, 0);
+  transform: translate(-48px, 0);
 }
 .fila-carne div a img {
+  border-radius: 8px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.9s;
 }
 .fila-carne .col-12 div h2 {
-  font-size: 2.1rem;
-  margin-top: 10px;
+  margin-top: 8px;
+}
+.fila-carne .col-12 div p b {
+  color: hsl(0deg, 59%, 41%);
 }
 
 .fila-pasta {
-  margin: 5rem 0 5rem 0;
+  margin: 80px 0;
 }
 .fila-pasta div a img:hover {
-  -webkit-transform: translate(3rem, 0);
-  -ms-transform: translate(3rem, 0);
-  -o-transform: translate(3rem, 0);
-  transform: translate(3rem, 0);
-  transition: 0.9s;
+  -webkit-transform: translate(48px, 0);
+  -ms-transform: translate(48px, 0);
+  -o-transform: translate(48px, 0);
+  transform: translate(48px, 0);
 }
 .fila-pasta div a img {
+  border-radius: 8px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.9s;
 }
 .fila-pasta .col-12 div h2 {
-  font-size: 2.1rem;
-  margin-top: 10px;
+  margin-top: 8px;
+}
+.fila-pasta .col-12 div p b {
+  color: hsl(0deg, 59%, 41%);
 }
 
 .fila-postre {
-  margin: 5rem 0 5rem 0;
+  margin: 80px 0;
 }
 .fila-postre div a img:hover {
-  -webkit-transform: translate(-3rem, 0);
-  -ms-transform: translate(-3rem, 0);
-  -o-transform: translate(-3rem, 0);
-  transform: translate(-3rem, 0);
-  transition: 0.9s;
+  -webkit-transform: translate(-48px, 0);
+  -ms-transform: translate(-48px, 0);
+  -o-transform: translate(-48px, 0);
+  transform: translate(-48px, 0);
 }
 .fila-postre div a img {
+  border-radius: 8px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.9s;
 }
 .fila-postre .col-12 div h2 {
-  font-size: 2.1rem;
-  margin-top: 10px;
+  margin-top: 8px;
+}
+.fila-postre .col-12 div p b {
+  color: hsl(0deg, 59%, 41%);
 }
 
 .fila-vino {
-  margin: 5rem 0 5rem 0;
+  margin: 80px 0;
 }
 .fila-vino div a img:hover {
-  -webkit-transform: translate(3rem, 0);
-  -ms-transform: translate(3rem, 0);
-  -o-transform: translate(3rem, 0);
-  transform: translate(3rem, 0);
-  transition: 0.9s;
+  -webkit-transform: translate(48px, 0);
+  -ms-transform: translate(48px, 0);
+  -o-transform: translate(48px, 0);
+  transform: translate(48px, 0);
 }
 .fila-vino div a img {
+  border-radius: 8px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.9s;
 }
 .fila-vino .col-12 div h2 {
-  font-size: 2.1rem;
-  margin-top: 10px;
+  margin-top: 8px;
+}
+.fila-vino .col-12 div p b {
+  color: hsl(0deg, 59%, 41%);
 }
 
 @media only screen and (max-width: 768px) {
   .fila-carne {
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
   }
   .fila-carne div a img:hover {
     -webkit-transform: none;
@@ -705,7 +1631,7 @@ header {
   }
 
   .fila-pasta {
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
   }
   .fila-pasta div a img:hover {
     -webkit-transform: none;
@@ -715,7 +1641,7 @@ header {
   }
 
   .fila-postre {
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
   }
   .fila-postre div a img:hover {
     -webkit-transform: none;
@@ -725,7 +1651,7 @@ header {
   }
 
   .fila-vino {
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
   }
   .fila-vino div a img:hover {
     -webkit-transform: none;
@@ -734,42 +1660,148 @@ header {
     transform: none;
   }
 }
+.u-container .mapa-container .mapa, header {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.u-container .bloque-u-titulo .titulo-u-formato, .title-c-container .bloque-c-titulo .titulo-c-formato, .title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato, .fila-carne .col-12 div h2, .fila-pasta .col-12 div h2, .fila-postre .col-12 div h2, .fila-vino .col-12 div h2 {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, footer, .fila-carne .col-12 div p, .fila-pasta .col-12 div p, .fila-postre .col-12 div p, .fila-vino .col-12 div p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
 /* Contacto */
 .title-c-container {
-  margin-top: -24px;
   height: 60vh;
   background-image: url("../../images/titulo-contacto.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .title-c-container .bloque-c-titulo {
-  text-align: center;
   margin: auto;
-  border-radius: 5px;
-  width: 250px;
+  width: fit-content;
 }
 .title-c-container .bloque-c-titulo .titulo-c-formato {
-  font-size: 1.5rem;
-  margin: 15px 0 15px 0;
+  padding: 24px 48px;
+  border-radius: 8px;
+  background-color: hsla(0deg, 0%, 95%, 0.75);
 }
 
 .contacto-container {
-  width: 60%;
-  height: 730px;
+  width: 90%;
+  max-width: 800px;
   margin: auto;
-  border: 1px solid white;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  border: 1px solid hsl(0deg, 0%, 95%);
+  border-radius: 16px;
+  box-shadow: hsl(0deg, 0%, 80%) 0px 18px 50px -10px;
+  padding: 48px;
 }
 .contacto-container .form-contacto {
   width: 90%;
+  max-width: 800px;
   position: relative;
-  height: 100%;
   margin: auto;
-  margin-top: 30px;
   overflow: hidden;
 }
 .contacto-container .form-contacto .name-section {
@@ -777,8 +1809,8 @@ header {
 }
 .contacto-container .form-contacto .name-section input {
   width: 100%;
-  height: 7%;
-  padding-top: 20px;
+  height: 100%;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -787,8 +1819,6 @@ header {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .contacto-container .form-contacto .name-section input:focus + .label-name::after, .contacto-container .form-contacto .name-section input:valid + .label-name::after {
   -webkit-transform: translateX(0%);
@@ -803,11 +1833,11 @@ header {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .contacto-container .form-contacto .name-section label .content-name {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -818,7 +1848,7 @@ header {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -826,13 +1856,13 @@ header {
   transition: transform 0.3s ease;
 }
 .contacto-container .form-contacto .surname-section {
-  margin-top: 30px;
+  margin-top: 32px;
   position: relative;
 }
 .contacto-container .form-contacto .surname-section input {
   width: 100%;
-  height: 7%;
-  padding-top: 20px;
+  height: 100%;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -841,8 +1871,6 @@ header {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .contacto-container .form-contacto .surname-section input:focus + .label-surname::after, .contacto-container .form-contacto .surname-section input:valid + .label-surname::after {
   -webkit-transform: translateX(0%);
@@ -857,11 +1885,11 @@ header {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .contacto-container .form-contacto .surname-section label .content-surname {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -872,7 +1900,7 @@ header {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -880,13 +1908,13 @@ header {
   transition: transform 0.3s ease;
 }
 .contacto-container .form-contacto .mail-section {
-  margin-top: 30px;
+  margin-top: 32px;
   position: relative;
 }
 .contacto-container .form-contacto .mail-section input {
   width: 100%;
-  height: 7%;
-  padding-top: 20px;
+  height: 100%;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -895,8 +1923,6 @@ header {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .contacto-container .form-contacto .mail-section input:focus + .label-mail::after, .contacto-container .form-contacto .mail-section input:valid + .label-mail::after {
   -webkit-transform: translateX(0%);
@@ -911,11 +1937,11 @@ header {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .contacto-container .form-contacto .mail-section label .content-mail {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -926,7 +1952,7 @@ header {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -934,14 +1960,13 @@ header {
   transition: transform 0.3s ease;
 }
 .contacto-container .form-contacto .phone-section {
-  margin-top: 30px;
+  margin-top: 32px;
   position: relative;
-  margin-bottom: 10px;
 }
 .contacto-container .form-contacto .phone-section input {
   width: 100%;
-  height: 7%;
-  padding-top: 20px;
+  height: 100%;
+  padding-top: 32px;
   border: none;
   outline: none;
 }
@@ -950,8 +1975,6 @@ header {
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
   transform: translateY(-25%);
-  font-size: 14px;
-  color: #5fa8d3;
 }
 .contacto-container .form-contacto .phone-section input:focus + .label-phone::after, .contacto-container .form-contacto .phone-section input:valid + .label-phone::after {
   -webkit-transform: translateX(0%);
@@ -966,11 +1989,11 @@ header {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(0deg, 0%, 15%);
 }
 .contacto-container .form-contacto .phone-section label .content-phone {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -981,7 +2004,7 @@ header {
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid #5fa8d3;
+  border-bottom: 3px solid hsl(36deg, 95%, 33%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
@@ -989,10 +2012,15 @@ header {
   transition: transform 0.3s ease;
 }
 .contacto-container .form-contacto .message-section {
-  margin: 30px 0 30px 0;
+  margin: 32px 0;
 }
 .contacto-container .form-contacto .message-section label {
-  margin-bottom: 20px;
+  margin-bottom: 4px;
+}
+.contacto-container .form-contacto .message-section .form-control:focus {
+  outline: none;
+  border: 1px solid hsl(36deg, 95%, 33%);
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -1002,31 +2030,141 @@ header {
 }
 /* Ubicación */
 .u-container {
-  height: 500px;
+  height: fit fit-content;
   background-image: url("../../images/titulo-ubicacion.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 50px;
+  padding: 64px 0;
 }
 .u-container .bloque-u-titulo {
-  text-align: center;
+  margin: auto;
+  width: fit-content;
 }
 .u-container .bloque-u-titulo .titulo-u-formato {
-  font-size: 1.5rem;
-  margin: 15px 0 15px 0;
+  padding: 24px 48px;
+  border-radius: 8px;
+  background-color: hsla(0deg, 0%, 95%, 0.75);
 }
 .u-container .mapa-container .mapa {
-  width: 50vw;
-  margin: 10px;
+  width: 90%;
+  max-width: 800px;
+  margin: 16px auto;
 }
 .u-container .mapa-container .mapa iframe {
   width: 100vw;
   height: 400px;
 }
 
+header, .u-container .mapa-container .mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato, .fila-carne .col-12 div h2, .fila-pasta .col-12 div h2, .fila-postre .col-12 div h2, .fila-vino .col-12 div h2, .title-c-container .bloque-c-titulo .titulo-c-formato, .u-container .bloque-u-titulo .titulo-u-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, footer, .fila-carne .col-12 div p, .fila-pasta .col-12 div p, .fila-postre .col-12 div p, .fila-vino .col-12 div p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque .ver-mas a, .reserva-parallax .reserva-bloque p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+}
+
 /* Index - Parallax de reserva */
 .reserva-parallax {
-  margin-top: -24px;
   height: 100vh;
   background: fixed no-repeat 50% 50%;
   background-size: cover;
@@ -1034,45 +2172,145 @@ header {
   display: flex;
 }
 .reserva-parallax .reserva-bloque {
-  background: rgba(0, 0, 0, 0.568);
+  background: hsla(0deg, 0%, 15%, 0.7);
   margin: auto;
-  font-size: 1.4rem;
-  border-radius: 7px;
-  color: white;
+  border-radius: 16px;
+  padding: 16px;
 }
 .reserva-parallax .reserva-bloque .container .row .col-12 h3 {
-  text-align: center;
-  font-size: 3rem;
-  margin: 20px;
+  margin: 16px;
 }
 .reserva-parallax .reserva-bloque p {
-  text-align: center;
-  font-size: 1rem;
   margin: auto;
-  width: 256px;
+  max-width: 400px;
 }
 .reserva-parallax .reserva-bloque .ver-mas:hover a {
-  color: rgba(0, 0, 0, 0.568);
+  color: hsla(0deg, 0%, 15%, 0.7);
 }
 .reserva-parallax .reserva-bloque .ver-mas:hover {
-  border: 1px solid rgba(0, 0, 0, 0.568);
-  background-color: white;
+  border: 1px solid hsla(0deg, 0%, 15%, 0.7);
+  background-color: hsl(0deg, 0%, 95%);
 }
 .reserva-parallax .reserva-bloque .ver-mas {
-  width: 100px;
-  height: 42px;
-  border: 1px solid white;
-  border-radius: 20px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: fit-content;
+  border: 1px solid hsl(0deg, 0%, 95%);
+  border-radius: 16px;
+  margin: 32px auto;
   text-align: center;
+  padding: 16px 32px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .reserva-parallax .reserva-bloque .ver-mas a {
   text-decoration: none;
-  color: white;
-  font-size: 1rem;
+}
+
+header, .u-container .mapa-container .mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar .menu-enlace {
+  font-size: 20px;
+  color: hsl(36deg, 95%, 83%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo-presentacion {
+  font-size: 76px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  text-align: center;
+}
+
+.reserva-parallax .reserva-bloque .container .row .col-12 h3 {
+  font-size: 49px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title-r-container .bloque-r-titulo .titulo-r-formato, .title-m-container .bloque-m-titulo .titulo-m-formato, .title-g-container .bloque-g-titulo .titulo-g-formato, .fila-carne .col-12 div h2, .fila-pasta .col-12 div h2, .fila-postre .col-12 div h2, .fila-vino .col-12 div h2, .title-c-container .bloque-c-titulo .titulo-c-formato, .u-container .bloque-u-titulo .titulo-u-formato {
+  font-size: 31px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.parallax .bloque h1 {
+  font-size: 25px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax .bloque p {
+  font-size: 20px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos a, .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto, footer, .fila-carne .col-12 div p, .fila-pasta .col-12 div p, .fila-postre .col-12 div p, .fila-vino .col-12 div p {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 15%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacto-inicio .contenedor-contacto .row .contactenos:hover a, .reserva-parallax .reserva-bloque p, .reserva-parallax .reserva-bloque .ver-mas a {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reserva-container .formu .name-section input:focus + .label-name .content-name, .reserva-container .formu .name-section input:valid + .label-name .content-name, .reserva-container .formu .surname-section input:focus + .label-surname .content-surname, .reserva-container .formu .surname-section input:valid + .label-surname .content-surname, .reserva-container .formu .diner-section input:focus + .label-diner .content-diner, .reserva-container .formu .diner-section input:valid + .label-diner .content-diner, .reserva-container .formu .date-section input:focus + .label-date .content-date, .reserva-container .formu .date-section input:valid + .label-date .content-date, .reserva-container .formu .time-section input:focus + .label-time .content-time, .reserva-container .formu .time-section input:valid + .label-time .content-time, .reserva-container .formu .phone-section input:focus + .label-phone .content-phone, .reserva-container .formu .phone-section input:valid + .label-phone .content-phone, .reserva-container .formu .mail-section input:focus + .label-mail .content-mail, .reserva-container .formu .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .name-section input:focus + .label-name .content-name, .contacto-container .form-contacto .name-section input:valid + .label-name .content-name, .contacto-container .form-contacto .surname-section input:focus + .label-surname .content-surname, .contacto-container .form-contacto .surname-section input:valid + .label-surname .content-surname, .contacto-container .form-contacto .mail-section input:focus + .label-mail .content-mail, .contacto-container .form-contacto .mail-section input:valid + .label-mail .content-mail, .contacto-container .form-contacto .phone-section input:focus + .label-phone .content-phone, .contacto-container .form-contacto .phone-section input:valid + .label-phone .content-phone {
+  font-size: 14px;
+  color: hsl(36deg, 95%, 33%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.menu-title h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-title h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 15%);
+}
+
+.food-description p {
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
 }
 
 /* Index - Sección Contacto */
@@ -1086,34 +2324,29 @@ header {
   align-items: center;
   width: 36vw;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: hsla(0deg, 0%, 95%, 0.75);
   float: left;
 }
-.contacto-inicio .contenedor-contacto .row .titulo-inicio-contacto {
-  text-align: center;
-  font-size: 3rem;
-}
 .contacto-inicio .contenedor-contacto .row .texto-inicio-contacto {
-  margin: 15px 15px 30px 15px;
-  text-align: center;
-}
-.contacto-inicio .contenedor-contacto .row .contactenos:hover {
-  border: 1px solid rgba(0, 0, 0, 0.568);
-  background-color: white;
+  margin: auto;
+  padding: 24px;
 }
 .contacto-inicio .contenedor-contacto .row .contactenos {
-  width: 120px;
-  height: 30px;
-  border: 1px solid black;
-  border-radius: 20px;
-  text-align: center;
-  margin: auto;
+  width: fit-content;
+  border: 1px solid hsl(0deg, 0%, 15%);
+  border-radius: 16px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .contacto-inicio .contenedor-contacto .row .contactenos a {
   text-decoration: none;
-  color: black;
 }
-
+.contacto-inicio .contenedor-contacto .row .contactenos:hover {
+  border: 1px solid hsl(0deg, 0%, 95%);
+  background-color: hsl(0deg, 0%, 15%);
+}
 @media only screen and (max-width: 700px) {
   .contacto-inicio .contenedor-contacto {
     width: 100vw;
@@ -1128,24 +2361,6 @@ header {
 
 html {
   scroll-behavior: smooth;
-}
-
-/* Colores */
-.bloque-r-titulo, .bloque-m-titulo, .bloque-g-titulo, .bloque-c-titulo, .bloque-u-titulo {
-  background-color: rgba(255, 255, 255, 0.678);
-}
-
-.name-section input, .surname-section input, .diner-section input, .date-section input, .time-section input, .phone-section input, .mail-section input, .form-contacto .name-section input, .form-contacto .surname-section input, .form-contacto .mail-section input, .form-contacto .phone-section input {
-  color: #4b4b4b;
-}
-
-/* Fuentes */
-footer, .parallax .bloque {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.titulo-presentacion, .reserva-bloque, .titulo-g-formato, .titulo-m-formato, .titulo-r-formato, .titulo-c-formato, .titulo-u-formato {
-  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

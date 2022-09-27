@@ -1,12 +1,18 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Menú Bootstrap */
 .menubar{
-    background-color: rgb(166, 43, 43);
-    .nav-item a:hover{
-        text-decoration: underline;
-        color: white;
+    background-color: $primary-color;
+    min-height: 48px;
+    .nav-item a{
+        transition: 0.3s;
+        &:hover{
+            text-decoration: underline;
+            color: $white-color;
+        }
     }
     .menu-enlace{
-        font-size: 1.25rem;
-        color:  rgb(253, 220, 171);
+        @extend %navlink-font;
     }
 }

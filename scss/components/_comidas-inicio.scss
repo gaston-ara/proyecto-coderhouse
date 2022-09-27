@@ -1,22 +1,20 @@
+@import '../extensions/extend';
+
 /* Index - Presentacion Menú */
 .titulo-presentacion{
-    font-size: 4rem;
-    font-weight: 200;
-    text-align: center;
-    letter-spacing: 1rem;
-    margin: 6rem 0 3rem 0;
+    @extend %title-76;
 }
 @media only screen and (max-width: 700px) {
     .titulo-presentacion{
-        font-size: 3rem;
-        letter-spacing: 0.3rem;
-        margin: 6rem 0 0 0;
+        font-size: 49px;
+        letter-spacing: 4px;
+        margin: 96px 0 0 0;
     }
 }    
 
 @media only screen and (max-width: 350px) {
     .titulo-presentacion{
-        font-size: 2rem;
+        font-size: 31px;
     }
 }
 
@@ -34,83 +32,113 @@
 }
 
 .fila-carne{
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
         div a img:hover{
-            @include transform(translate(-3rem, 0));
-            transition: 0.90s;
+            @include transform(translate(-48px, 0));
         }
         div a img{
+            border-radius: 8px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            transition: 0.90s;
         }
         .col-12 div h2{      
-            font-size: 2.1rem;
-            margin-top: 10px;           
+            @extend %title-31;
+            margin-top: 8px;           
         } 
+        .col-12 div p{
+            @extend %text-16;
+        }
+        .col-12 div p b{
+        color: $primary-color;
+        }
 }
 .fila-pasta{
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
     div a img:hover{
-        @include transform(translate(3rem, 0));
-        transition: 0.90s;
+        @include transform(translate(48px, 0));
     }
     div a img{
+        border-radius: 8px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        transition: 0.90s;
     }
     .col-12 div h2{      
-        font-size: 2.1rem;
-        margin-top: 10px;           
+        @extend %title-31;
+        margin-top: 8px;           
     } 
+    .col-12 div p{
+        @extend %text-16;
+    }
+    .col-12 div p b{
+    color: $primary-color;
+    }
 }
 .fila-postre{
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
     div a img:hover{
-        @include transform(translate(-3rem, 0));
-        transition: 0.90s;
+        @include transform(translate(-48px, 0));
+        
     }
     div a img{
+        border-radius: 8px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        transition: 0.90s;
     }
     .col-12 div h2{      
-        font-size: 2.1rem;
-        margin-top: 10px;           
+        @extend %title-31;
+        margin-top: 8px;
     } 
+    .col-12 div p{
+        @extend %text-16;
+    }
+    .col-12 div p b{
+    color: $primary-color;
+    }
 }
 .fila-vino{
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
     div a img:hover{
-        @include transform(translate(3rem, 0));
-        transition: 0.90s;
+        @include transform(translate(48px, 0));
+        ;
     }
     div a img{
+        border-radius: 8px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        transition: 0.90s
     }
     .col-12 div h2{      
-        font-size: 2.1rem;
-        margin-top: 10px;           
+        @extend %title-31;
+        margin-top: 8px;           
     } 
+    .col-12 div p{
+        @extend %text-16;
+    }
+    .col-12 div p b{
+    color: $primary-color;
+    }
 }
 
 @media only screen and (max-width: 768px){
     .fila-carne{
-    margin: 5rem 0 5rem 0;
+    margin: 80px 0;
         div a img:hover{
             @include transform(none);
         }
     }
     .fila-pasta{
-        margin: 5rem 0 5rem 0;
+        margin: 80px 0;
         div a img:hover{
             @include transform(none);
         }
     }
     .fila-postre{
-        margin: 5rem 0 5rem 0;
+        margin: 80px 0;
         div a img:hover{
             @include transform(none);
         }
     }
     .fila-vino{
-        margin: 5rem 0 5rem 0;
+        margin: 80px 0;
         div a img:hover{
             @include transform(none);
         }

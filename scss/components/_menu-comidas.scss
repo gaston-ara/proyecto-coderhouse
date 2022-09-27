@@ -1,48 +1,42 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Menú de comidas */
 .title-m-container{
-    margin-top: -24px;
     height: 60vh;
     background-image: url('../../images/titulo-menu.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
     .bloque-m-titulo{
-        text-align: center;
-        border-radius: 5px;
         margin: auto;
-        width: 250px;
+        width: fit-content;
         .titulo-m-formato{
-            font-size: 1.5rem;
-            margin: 15px 0 15px 0;
+            @extend %title-31;
+            padding: 24px 48px;
+            border-radius: 8px;
+            background-color: $transparent-white-color;
         }
     }
 }
 
-.menu-title {
+.menu-title h2{
     width: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    @extend %title-menu;
+    border-bottom: 1px solid $grey-50;
+    padding: 8px 0;
 }
 .food-container {
     display: flex;
     flex-direction: column;
-    margin: 80px 20px 80px 20px;
+    margin: 80px 24px;
 }
-.food-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: 600;
+.food-title h3{
+    @extend %title-food;
 }
-.food-description {
-    text-align: center;
-    font-size: 14px;
-    font-style: italic;
+.food-description p{
+    @extend %description-food;
 }
 .price {
     margin: auto;

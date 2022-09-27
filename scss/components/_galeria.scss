@@ -1,21 +1,23 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Galeria */
 .title-g-container{
-    margin-top: -24px;
     height: 60vh;
     background-image: url('../../images/titulo-galeria.jpg');
     background-size: cover;
     background-position: center 28%;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     .bloque-g-titulo{
-        text-align: center;
-        border-radius: 5px;
         margin: auto;
-        width: 250px;
+        width: fit-content;
         .titulo-g-formato{
-            font-size: 1.5rem;
-            margin: 15px 0 15px 0;
+            @extend %title-31;
+            padding: 24px 48px;
+            border-radius: 8px;
+            background-color: $transparent-white-color;
         }
     }
 }
@@ -23,21 +25,20 @@
 .fotos-container {
     display: flex;
     width: 100%;
+    max-width: 1000px;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1000px;
     margin: auto;
-    margin-top: 30px;
 }
 .foto-item {
     width: 200px;
     height: 200px;
-    margin: 20px;
+    margin: 24px;
     object-fit: cover;
     filter: contrast(70%);
+    transition: 0.9s;
     &:hover{
         filter: contrast(100%);
         @include transform(scale(1.02));
-        transition: 1s;
     }
 }

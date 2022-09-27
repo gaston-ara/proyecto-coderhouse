@@ -1,6 +1,8 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Index- Parallax */
 .parallax{
-    margin-top: -24px;
     height: 100vh;
     background: fixed no-repeat 50% 50%;
     background-size: cover;
@@ -8,20 +10,20 @@
     display: flex;
     .bloque{
         display: block;
-        background: rgba(0, 0, 0, 0.568);
+        background: $transparent-bg-color;
         margin: auto;
-        border-radius: 7px;
-        color: rgb(255, 255, 255);
+        border-radius: 8px;
         text-align: center;
-        width: 346px;
-        height: 180px;
+        max-width: 424px;
+        width: fit-content;
+        padding: 24px;
         h1{
-            font-size: 1.2rem;
-            margin: 15px;
+            @extend %text-25;
+            margin: 16px;
         }
         p{
             font-style: italic;
-            font-size: 1.2rem;
+            @extend %text-20;
         }
     }
 }

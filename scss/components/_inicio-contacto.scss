@@ -1,3 +1,6 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Index - Sección Contacto */
 .contacto-inicio{
     height: 100vh;
@@ -8,32 +11,37 @@
         align-items: center;
         width: 36vw;
         height: 100vh;
-        background: rgba(255, 255, 255, 0.500);
+        background-color: $transparent-white-color;
         float: left;
         .row{
             .titulo-inicio-contacto{
-                text-align: center;
-                font-size: 3rem;
+                @extend %title-49;
                 }
                 .texto-inicio-contacto{
-                margin: 15px 15px 30px 15px;
-                text-align: center;
-                }
-                .contactenos:hover{
-                border: 1px solid rgba(0, 0, 0, 0.568);
-                background-color: white;
-                }
-                .contactenos{
-                width: 120px;
-                height: 30px;
-                border: 1px solid black;
-                border-radius: 20px;
-                text-align: center;
                 margin: auto;
+                @extend %text-16;
+                padding: 24px;
+                }
+                
+                .contactenos{
+                width: fit-content;
+                border: 1px solid $text-color;
+                border-radius: 16px;
+                margin:  0 auto;
+                padding: 16px 32px;
+                transition: 0.3s;
+                cursor: pointer;
                 a{
                     text-decoration: none;
-                    color: black
+                    @extend %text-16;
                 }
+                &:hover{
+                    border: 1px solid $white-color;
+                    background-color: $text-color;
+                    a{
+                        @extend %text-16-white;
+                    }
+                    }
             }        
         }
     }

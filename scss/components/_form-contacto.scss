@@ -1,51 +1,52 @@
+@import '../extensions/extend';
+@import '../base/colors';
+
 /* Contacto */
 .title-c-container{
-    margin-top: -24px;
     height: 60vh;
     background-image: url('../../images/titulo-contacto.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     .bloque-c-titulo{
-        text-align: center;
         margin: auto;
-        border-radius: 5px;
-        width: 250px;
+        width: fit-content;
         .titulo-c-formato{
-            font-size: 1.5rem;
-            margin: 15px 0 15px 0;
+            @extend %title-31;
+            padding: 24px 48px;
+            border-radius: 8px;
+            background-color: $transparent-white-color;
         }
     }
 }
 .contacto-container{
-    width: 60%;
-    height: 730px;
+    width: 90%;
+    max-width: 800px;
     margin: auto;
-    border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    border: 1px solid $white-color;
+    border-radius: 16px;
+    box-shadow: $grey-20 0px 18px 50px -10px;
+    padding: 48px;
     .form-contacto{
         width: 90%;
+        max-width: 800px;
         position: relative;
-        height: 100%;
         margin: auto;
-        margin-top: 30px;
         overflow: hidden;
         .name-section{
             position: relative;
             input{
                 width: 100%;
-                height: 7%;
-                padding-top: 20px;
+                height: 100%;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-name .content-name, input:valid + .label-name .content-name{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-name::after, input:valid + .label-name::after{
                 @include transform(translateX(0%));
@@ -57,10 +58,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-name{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -72,26 +73,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .surname-section{
-            margin-top: 30px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
-                height: 7%;
-                padding-top: 20px;
+                height: 100%;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-surname .content-surname, input:valid + .label-surname .content-surname{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-surname::after, input:valid + .label-surname::after{
                 @include transform(translateX(0%));
@@ -103,10 +103,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-surname{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -118,26 +118,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         }
 
         .mail-section{
-            margin-top: 30px;
+            margin-top: 32px;
             position: relative;
             input{
                 width: 100%;
-                height: 7%;
-                padding-top: 20px;
+                height: 100%;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-mail .content-mail, input:valid + .label-mail .content-mail{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-mail::after, input:valid + .label-mail::after{
                 @include transform(translateX(0%));
@@ -149,10 +148,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-mail{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -164,27 +163,25 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         } 
 
         .phone-section{
-            margin-top: 30px;
+            margin-top: 32px;
             position: relative;
-            margin-bottom: 10px;
             input{
                 width: 100%;
-                height: 7%;
-                padding-top: 20px;
+                height: 100%;
+                padding-top: 32px;
                 border: none;
                 outline: none;
             }
             input:focus + .label-phone .content-phone, input:valid + .label-phone .content-phone{
                 @include transform(translateY(-25%));
-                font-size: 14px;
-                color: #5fa8d3;
+                @extend %text-input-effect;
             }
             input:focus + .label-phone::after, input:valid + .label-phone::after{
                 @include transform(translateX(0%));
@@ -196,10 +193,10 @@
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $text-color;
                 .content-phone{
                     position: absolute;
-                    bottom: 20px;
+                    bottom: 24px;
                     left: 0px;
                     transition: all 0.3s ease;
                 }
@@ -211,16 +208,21 @@
                 bottom: -1px;
                 height: 100%;
                 width: 100%;
-                border-bottom: 3px solid #5fa8d3;
+                border-bottom: 3px solid $effect-color-input;
                 @include transform(translateX(-100%));
                 transition: transform 0.3s ease;
             }
         } 
 
         .message-section{
-            margin: 30px 0 30px 0;
+            margin: 32px 0;
             label{
-                margin-bottom: 20px;
+                margin-bottom: 4px;
+            }
+            .form-control:focus{
+                outline: none;
+    border:1px solid $effect-color-input;
+    box-shadow: none;
             }
         }
     }
@@ -235,22 +237,27 @@
 /* Ubicación */
 
 .u-container{
-    height: 500px;
+    height: fit fit-content;
     background-image: url('../../images/titulo-ubicacion.jpg');
     background-size: cover;
     background-position: center;
-    margin-top: 50px;
+    padding: 64px 0;
     .bloque-u-titulo{
-        text-align: center;
+        margin: auto;
+        width: fit-content;
         .titulo-u-formato{
-            font-size: 1.5rem;
-            margin: 15px 0 15px 0;
+            @extend %title-31;
+            padding: 24px 48px;
+            border-radius: 8px;
+            background-color: $transparent-white-color;
         }
     }
     .mapa-container{
         .mapa{
-            width: 50vw;
-            margin: 10px;
+            width: 90%;
+            max-width: 800px;
+            margin: 16px auto;
+            @extend %flexbox-center;
             iframe{
                 width: 100vw;
                 height: 400px;
