@@ -2045,13 +2045,17 @@ header img {
   border-radius: 8px;
   background-color: hsla(0deg, 0%, 95%, 0.75);
 }
+.u-container .mapa-container {
+  padding: 0;
+  width: 100%;
+}
 .u-container .mapa-container .mapa {
   width: 90%;
   max-width: 800px;
   margin: 16px auto;
 }
 .u-container .mapa-container .mapa iframe {
-  width: 100vw;
+  width: 100%;
   height: 400px;
 }
 
